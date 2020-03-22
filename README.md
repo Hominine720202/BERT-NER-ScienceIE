@@ -1,0 +1,1 @@
+﻿Our BERT-based keyphrase extraction system is implemented based on an open source project **[NER-BERT-pytorch](https://github.com/lemonhu/NER-BERT-pytorch)**

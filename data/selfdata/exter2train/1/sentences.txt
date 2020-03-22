@@ -1,0 +1,776 @@
+A verb paradigm is a set of inflectional categories for a single verb lemma.
+We present the dialogue module of the speech-to-speech translation system VERB-MOBIL.
+We describe an approach to resolving definite descriptions and pronominal anaphora as subcases of a general strategy for presupposition satisfaction.
+We automatically detect t(opic) and f(ocus), using node attributes from the treebank as basic features and derived features inspired by the annotation guidelines.
+We apply interpretive rules to clausal patterns and patterns of modification, and concurrently abstract general 損ossibilistic?propositions from the resulting formulas.
+We defined 10 Descriptive Answer Type(DAT)s as answer types for descriptive questions.
+information retrieval, translation unit discovery, and corpus studies.
+We call this model a logarithmic opinion pool (LOP) of CRFs (LOP-CRFs).
+In this paper we investigate probabilistic, contextual, and phonological factors that influence pitch accent placement in natural, conversational speech in a sequence labeling setting.
+The sys-tem is an application of maximum entropy clas-sification for question/answer type prediction and named entity marking.
+This paper presents a sentence- based statistical model for Hangeul-Hanja conversion, with word tokenization included as a hidden process.
+information extraction).
+In this paper, we apply a novel source-channel model to the problem of morphological disambiguation (segmentation into morphemes, lemmatization, and POS tagging) for concatenative, templatic, and inflectional languages.
+We present a generic template for spoken dialogue systems integrating speech recognition and synthesis with 'higher-level' natural language dialogue modelling components.
+classification of unseen verbs.
+The paper fo-cuses on phonology.
+We analyzed eye gaze, head nods and attentional focus in the context of a direction-giving task.
+This paper presents the user-centered interface of a summarization system for physicians in Bone Marrow Transplan-tation (BMT).
+the complexity of language domain and concept inventory).
+We present the multilingual sum-marization functionality for VERB-MOBIL, a speech translation system.
+In this paper we present Morphy, an integrated tool for German morphology, part-ofspeech tagging and context-sensitive lemmatization.
+This paper investigates the impact of Constraint Dependency Grammars (CDG) on the accuracy of an integrated speech recognition and CDG pars-ing system.
+This paper proposes a two-layered model of dialogue structure for task-oriented dialogues that processes contextual information and disambiguates speech acts.
+relative clauses.
+passivisation.
+and questions.
+The sentence-level discourse parser uses syntactic information and cue phrases to segment sentences into elementary discourse units and to generate discourse structures of sentences.
+We use LFG抯 functional representations to distinguish local and non-local role assignments.
+The domain- specific system has a three-stage pipeline architecture which includes word segmentation and part-of-speech (POS) tagging, named entity recognition, and named entity relation identitfication.
+grammatical function, phrase type, and other syntactic traits).
+a tagset containing information about wordclasses.
+This paper describes a project tagging a spontaneous speech corpus with morphological information such as word segmentation and parts-ofspeech.
+We cluster verbs into lexical semantic classes, using a general set of noisy features that capture syntactic and semantic properties of the verbs.
+subordinators and verbs).
+We develop admissible A* search heuristics for synchronous parsing with Inversion Transduction Grammar, and present results both for bitext alignment and for machine translation decoding.
+the task of WSD of Word- Net glosses and the task of WSD of English lexical sample.
+hypernymy glosses, holonymy mixture, descriptive glosses and some hybrid mixtures of these glosses.
+We use a highly interactive bottom-up inductive logic programming (ILP) algorithm to learn `missing' grammar rules from an incomplete grammar.
+a noun in a noun phrase).
+mantics of Combinatory Categorial Grammar, including its handling of coordination constructs.
+GermaNet and FrameNet.
+This paper describes the incremental generation of parse tables for the LRtype parsing of Tree Adjoining Languages (TALs).
+We investigated the applicability of probabilistic context-free grammars to syllabification and grapheme-to-phoneme conversion.
+LFG and PATR-II.
+the language used in official encyclopaedic articles.
+We extracted meaningful bigrams using an evaluation function and extended the bigrams to n-gram collocations by generating equivalence sets, a-covers.
+We view a modeling problem for n-gram collocations as that for clustering of cohesive words.
+directly stored relations.
+These kinds of anaphora are pronominal references, surface- count anaphora and one-anaphora.
+We connect VerbNet and FrameNet by mapping the FrameNet frames to the VerbNet Intersective Levin classes.
+We describe a method for interpreting abstract flat syntactic representations, LFG f- structures, as underspecified semantic representations, here Underspecified Discourse Representation Structures (UDRSs).
+QACIAD (Question Answering Challenge for Information Access Dialogue) is an evaluation framework for measuring interactive question answering (QA) technologies.
+We will describe an Earley-type parser for Tree Adjoining Grammars (TAGs).
+We propose a structured semantic representation, the Lexical Conceptual Paradigm (LOP) which groups nouns into paradigmatic classes exhibiting like behavior.I.
+basic segmentation, named entity recognition, error-driven learner and new word detector.
+These FSAs are good representations of paraphrases.
+We describe a data-driven approach to building interpretable discourse structures for appointment scheduling dialogues.
+In this paper, we investigate the acoustic prosodic mark-ing of demonstrative and personal pronouns in task-oriented dialog.
+We investigate prototype-driven learning for primarily unsupervised sequence modeling.
+This paper describes a mix word-pair mix-WP) identifier to resolve homo-nym/segmentation ambiguities as well as perform STW conversion effec-tively for Chinese input.
+We first tested the beam thresholding and iterative parsing developed for PCFG parsing with an HPSG.
+culminating ideally in soundness J id completeness theorems.
+Intersentential elliptical utterances occur frequently in information-seeking dialogues.
+We introduce feature terms containing sorts, variables, negation and named disjunction for the specification of feature structures.
+and lean declarative impIe.mentation.
+We propose a syntactic filter for identifying non-coreferential pronoun-NP pairs within a sentence.
+LFG f-structures or HPSG feature structures, to dependency triples simple.
+In Online Inquiry-Based Learning (OIBL) learners search for information to answer driving questions.
+This paper presents our work on real-izing expressions of doubt appropriately in natural language dialogues.
+Non-fiction	11.
+Fiction	K. General Fiction	I.
+(WSJ) speech corpus.
+We present a bottom-up approach to arranging sentences extracted for multi-document summarization.
+We apply the supervised decision list learn-ing method to Japanese named entity recogni-tion.
+Core Roles versus Adjuncts).
+We provide an XML serialization for intercomponent communication.
+In this work we learn clusters of contextual annotations for non-terminals in the Penn Treebank.
+Root based clusters can substitute dictionaries in indexing for IR.
+This paper describes classification of typed student utterances within AutoTutor, an intelligent tutoring system.
+We present an algorithm that learns the cross-language correspondence between affixes and letter sequences.
+We apply default inheritance hierarchies to generating the morphology of Hebrew verbs.
+a local area network).
+1 Korean syllable structure3.
+valid prefixes.
+The TIPSTER.
+We present ongoing work on prosody predic-tion for speech synthesis.
+We retrieve mixed- language web pages based on the expanded queries.
+at Grenoble.
+We learn models of answer type, query content, and answer extraction from clusters of similar questions.
+This paper investigates adapting a lexicalized probabilistic context-free grammar (PCFG) to a novel domain, using maximum a posteriori (MAP) estimation.
+generate non_grammatical sent_ ences.
+We describe an approach to surface generation designed for a "pragmatics-based" dialogue system.
+Stochastic unification-based grammars (SUBGs) define exponential distributions over the parses generated by a unification- based grammar (UBG).
+1 IntroductionStochastic Unification-Based Grammars (SUBGs) use log-linear models (also known as exponential or MaxEnt models and Markov Random Fields) to define probability distributions over the parses of a unification grammar.
+We discuss a grammar development process used to generate the trees of the wide-coverage Lexicalized Tree Adjoining Grammar (LTAG) for English of the XTAG Project.
+The discourse entities are used in intra- and extra-sentential pronoun resolution in BBN Janus.
+OF COLING-92.
+possible structural and lexical attributes.
+Coreference resolution involves finding antecedents for anaphoric discourse entities, such as definite noun phrases.
+Our algorithm generates lists of non- anaphoric noun phrases and noun phrase patterns from a training corpus and uses them to recognize non-anaphoric noun phrases in new texts.
+in machine translation).
+We introduce factored language models (FLMs) and generalized parallel backoff (GPB).
+Michael met Maria at the cinema.
+This paper explores the segmentation of tutorial dialogue into cohesive topics.
+DTG involve two composition operations called subsertion and sister-adjunction.
+The Smooth Injective Map Recognizer (SIMR) is a new bitext mapping algorithm.
+We present an authoring system for logical forms encoded as conceptual graphs (CG).
+time, causality.
+Structural information is provided by such hierarchical prosodic constituents as Syllable (S), Metrical Foot (MF), Phonological Word (PW), Intonational Group (IG).
+The algorithm differentiates degree and event modifiers from nouns that quantify noun phrases.
+This paper describes an original hybrid system that extracts multiword unit candidates from part-of-speech tagged corpora.
+This paper presents a human梞achine dialogue model in the field of task梠riented dialogues.
+This paper presents the results of an experiment using machine-readable dictionaries (MRDs) and corpora for building concatenative units for text to speech (ITS) systems.
+groups of words).
+significant power to an NL system.
+We compare vectors containing counts of trigrams of part-of-speech (POS) tags in order to obtain an aggregate measure of syntax difference.
+This ex-planation accounts for prefixing, suffix-ing and infixing.
+LFG and PATR-II.
+We consider the problem of parsing non-recursive context-free grammars, i.e., context-free grammars that generate finite languages.
+in terms or facts and rules) .
+and 63 lexical entry templates (assigned to parts of speech (POSs) ).
+In this paper we present TroFi (Trope Finder), a system for automatically classifying literal and nonliteral usages of verbs through nearly unsupervised word-sense disambiguation and clustering techniques.
+OF COLING-92.
+information extraction, text sum-marisation, document generation, machine translation, and second language learning).
+ARGUMENTATION AND THE SEMANTIC PROGRAM.
+This paper discusses relationships among word pronunciations.
+Association for Computational Linguistics.
+This paper proposes the 揌ierarchical Directed Acyclic Graph (HDAG) Kernel?for structured natural language data.
+XMLencodingNon-XML EncodingFigure 3.
+We make use of a conditional log杔inear model, with hidden variables representing the assignment of lexical items to word clusters or word senses.
+We define POS blocks to be groups of parts of speech.
+We describe a statistical approach for modeling agreements and disagreements in conversational interaction.
+)In the Information Retrieval community.
+We investigate the effect of corpus size in combining supervised and unsupervised learning for two types of attachment decisions: relative clause attachment and prepositional phrase attachment.
+We connect VerbNet and FrameNet by mapping the FrameNet frames to the VerbNet Intersective Levin classes.
+We look at self-triggerability across hyperlinks on the Web.
+We discuss shift- reduce parsing of stochastic context-free grammars and show how to construct a probabilistic score for ranking competing parse hypotheses.
+This paper discusses an approach to modeling monolingual and bilingual dictionaries in the description logic species of the OWL Web Ontology Language (OWL DL).
+We describe a biographical multi-document summarizer that summarizes information about people described in the news.
+This paper introduces an open computational framework for visual perception and grounded language acquisition called Experience-Based Language Acquisition (EBLA).
+This paper describes an implemented mechanism for handling bound anaphora, disjoint reference, and pronominal reference.
+This paper describes text meaning represen-tation for Chinese.
+Structural (attachment.)
+theme/rheme and background/kontrast.
+without inflections or conjugations.
+We describe the treatment of questions (Question-Answer Typology, question parsing, and results) in the Weblcopedia question answering system.
+GermaNet, WordNet).
+the Italian wordnet in EuroWordNet (ItalWordNet).
+lion (11) .
+We describe a novel method for detecting errors in task-based human-computer (HC) dialogues by automatically deriving them from semantic tags.
+This paper presents a disambiguation approach for translating non-segmented-Kana into Kanji.
+These rules are noun sequences with part-of-speech tags.
+This paper describes methods for finding taxonomy and set-membership relationships, recognizing nouns that ordinarily represent human beings, and identifying active and stative verbs and adjectives.
+This paper describes Acorn, a sentence planner and surface realizer for dialogue systems.
+This paper presents a maximum entropy-based named entity recognizer (NER).
+POS-tagging, lemmatisation and a thesaurus-like thematic dictionary.
+the event profile.
+This process is known as 'compiling HPSG to TAG' and derives a Lexicalized Tree-Adjoining Grammar (LTAG).
+We classify the problematic behavior into "static disambiguation" and "dynamic disambiguation" tasks.
+This paper describes an attribute grammar specification of the Government-binding theory.
+easy vs difficult dialogs).
+CATEGORY assigns names in hierachies.
+In this paper a bidirectional parser for Lexicalized Tree Adjoining Grammars will be presented.
+a proper name or noun phrase.
+We compose three out-of-vocabulary extraction modules: Character-based tag-ging with different classifiers ?maximum entropy, support vector machines, and con-ditional random fields.
+It labels semantic roles of parsed sentences.
+We are concerned with dependency- oriented morphosyntactic parsing of running text.
+of deep cases relations (or thematic relations).
+Schemata are representational structures for stereotypical paragraphs that describe objects.
+We present minimally supervised methods for training and testing geographic name disambiguation (GND) systems.
+In this paper, we present a method of estimating referents of demonstrative pronouns, personal pronouns, and zero pronouns in Japanese sentences using examples, surface expressions, topics and foci.
+This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank.
+This paper investigates semantic and pragmatic presupposition in Discourse Representation Theory (DRT) and enhances the pragmatic perspective of presupposition in DRT.
+We address the problem of multi-way relation classification, applied to identification of the interactions between proteins in bioscience text.
+This paper examines feature selection for log linear models over rich constraint-based grammar (HPSG) representations by building decision trees over features in corresponding probabilistic context free grammars (PCFGs).
+-- the problem of diacritics and digraphs.
+We present a scheme for efficiently representing a lexicalized tree-adjoining grammar (LTAG).
+We report here the contribution of default sense selection, idiomatic usage, syntactic and semantic clues, subcategorization patterns, word forms, syntactic usage, context, selectional preferences, and topics or subject fields.
+In the GPSG framework.
+We offer a semantics and pragmatics of the pluperfect in narrative discourse.
+This paper presents Archivus, a multi- modal language-enabled meeting browsing and retrieval system.
+This paper presents LexPhon, a computational framework for modelling segmental aspects of Lexical Phonology (LP).
+This paper focuses on the use of Finite State morphological analysis (FST) resources for Irish and Part of Speech (POS) taggers for German.
+We introduce a first-order language for semantic underspecification that we call Constraint Language for Lambda-Structures (CLLS).
+CLLS features constraints for dominance, lambda binding, parallelism, and anaphoric links.
+We call sentences like (2) semantically disambiguatable garden path sentences (SDGPs).
+GEMS is lexically distributed.
+We present a method for recognizing semantic role arguments using a kernel on weighted marked ordered labeled trees (the WMOLT kernel).
+problem oriented systems.
+the grammatical morphemes  of the language.
+This paper extends the base noun phrase(BNP) identification into a research on Chinese base phrase identification.
+This paper discusses word choice for natural language generation.
+The paper describes a new unification based grammar formalism called Regular Unification Grammar (RUG).
+PARSE GRAPH STRUCTUREThe Parse Graph Structure (PGS) is built by the parser while applying grammar rules.
+Pronunciation-by-analogy (PbA) is an emer-ging technique for text-phoneme conversion based on a psychological model of read-ing aloud.
+They are morphological transformation and morpheme Identification.
+the primary driving task.
+bilingual dictionaries).
+Language understanding work at Paramax focuses on applying general-purpose language understanding technology to spoken language understanding, text understanding, and document processing, integrating language understanding with speech recognition, knowledge-based information retrieval and image understanding.
+This paper describes an operational se-mantics for DATR theories.
+Such speech acts represent dialogue deviations.
+Acoustic modeling uses cepstrum-based features, context-dependent phone models (intra and interword), phone duration models, and sex- dependent models.
+We describe a pilot project in semiautomatically refactoring a biomedical corpus.
+phonological rules or metrical systems).
+This paper presents work on using Bayesian networks for the dialogue act recognition module of a dialogue sys-tem for Dutch dialogues.
+This paper presents a method for auto-matically recognizing local cohesion be-tween utterances, which is one of the dis-course structures in task-oriented spoken dialogues.
+Th nlyzr pplis "phrs spotting" mhnism on th output of th sph rognition modul.
+the distribution.
+distinctive features.
+Our approach yields phrasal and single word lexical paraphrases as well as syntactic para-phrases.
+sys-tem.
+We associate phrases by frame-based semantics.
+We represent questions as frequency weighted vectors of salient terms.
+We analyze the association of noun-noun and noun-verb pairs in LOB Corpus.
+superordinate substitution, and definite noun phrase reiteration.
+We apply SVMs to Japanese dependency structure iden-tification problem.
+Confidence measures for MT outputs include the rank-sum-based confidence measure (RSCM) for statistical machine translation (SMT) systems.
+(TSR trees).
+unscripted) speech.
+SEM encodes logical semantics.
+We compute frequencies of unigrams, bigrams, and trigrams of word classes in order to further refine the disambiguation.
+This paper presents a word-pair (WP) identifier that can be used to resolve homonym/segmentation ambiguities and perform syllable-to-word (STW) conversion effectively for improving Chinese input systems.
+It detects mistypes, Kana-to-Kanji misconversions, and stylistic errors.
+We investigate the logical structure of concepts generated by conjunction and disjunction over a monotonic multiple inheritance network where concept nodes represent linguistic categories and links indicate basic inclusion (isA) and disjointness (IsNoTA) relations.
+This method focuses on semantic and pragmatic constraints such as semantic constraints on cases, modal expressions, verbal semantic attributes and conjunc-tions to determine the deictic reference of Japanese zero pronouns.
+In this paper we describe how to hierarchically organize abstract nouns (adjective hyperonyms) in a semantic map mainly using CSM.
+This study addresses pronominal anaphora resolution, including zero pronouns, in Chinese.
+The interlingua.
+noun plural markers.
+We present a corpus-based study of the sequential ordering among premodifiers in noun phrases.
+This paper describes the Speech Application Language Tags, or SALT, an XML based spoken dialog standard for multimodal or speech-only applications.
+We coerce the English FrameNet into Chinese using a bilingual lexicon, frame context in FrameNet and taxonomy structure in HowNet.
+This paper discusses the lexical knowledge of idioms for idiom recognition.
+This paper describes the tree-structured maximum mutual information (MMI) encoders used in SSI's Phonetic Engine?to perform large-vocabulary, continuous speech recognition.
+These templates represent grammatically correct sentence patterns.
+We have developed M ultiModal Definite Clause Grammar (MM-DCG), an extension of Definite Clause Grammar.
+Further, we have developed MM-DCG translator to transfer rules in MM-DCG into Prolog predicates.
+relation based sim-ilarity measure and distribution based similarity measure.
+A LOGICAL SEMANTICSFOR NONMONOTONIC SORTSMark A.
+the cross-entropy.
+Natural language parsing requires ex-tensive lexicons containing subcategori-sation information for specific sublan-guages.
+We explore the use of Support Vector Ma-chines (SVMs) for biomedical named en-tity recognition.
+Motion Verbs.
+Bilingual Corpus-based Analysis.
+sidesg.
+oppositesg.
+We represent shallow linguistic information as linguistic features in our ME model.
+as a hybrid system.
+We review studies of reference resolution, word recognition, and pragmatic effects on syntactic ambiguity resolution.
+domain-independent, semantic information for question interpretation.
+The grammars used for speech recognition dictate legal word sequences.
+We also associate this prosodic model with orthographic and part-of-speech analyses of cue phrases in text.
+We extract LFG subcategorisation frames and paths linking LDD reentrancies from f-structures generated automatically for the Penn-II treebank trees and use them in an LDD resolution algorithm to parse new text.
+This paper proposes a discriminative HMM (DHMM) with long state dependence (LSDDHMM) to segment and label sequential data.
+This part-ofspeech predictor will be used in a part-of-speech tagger to handle out-of-lexicon words.
+Rohrer.
+We present a Korean question answering framework for restricted domains, called K-QARD.
+morphological derivation and synonymy expansion) in web search strategies.
+information technology test reports and medical finding reports.
+WordNet) to ambiguous words occurring in a syntactic dependency.
+We present a method for determining the referents of noun phrases in Japanese sentences by using the referential properties, modifiers, and possessors' of noun phrases.
+Furthermore we used the modifiers and possessors of noun phrases in determining the referents of noun phrases.
+This paper describes named entity (NE) extraction based on a max-imum entropy (M.E.)
+model and transformation rules.
+The chunker partitions the part-of-speech sequence into segments called chunks.
+Existing methods learn statistics on trimming context-free grammar (CFG) rules.
+We present a coreference resolver called BABAR that uses contextual role knowledge to evaluate possible antecedents for an anaphor.
+We perform a linguistic analysis of documents during indexing for information retrieval.
+ethnologue.com).
+PROLOG.
+We use linguistic patterns and HTML text structures to extract text fragments contain-ing term descriptions.
+This paper presents a computational model of incremental utterance produc-tion in task-oriented dialogues.
+Tagging compound verb groups in an annotated corpus exploiting the verb rules is described.Keywords: compound verb groups, chunking, morphosyntactic tagging, inductive logic pro-gramming
+Text metadata.
+We describe a method for retrieving counts for adjective-noun, noun-noun, and verb- object bigrams from the web by querying a search engine.
+We describe Talk'n'Travel, a spoken dialogue language system for making air travel plans over the telephone.
+This paper describes DialogueView, a tool for annotating dialogues with utter-ance boundaries, speech repairs, speech act tags, and discourse segments.
+Both probabilistic context-free grammars (PCFGs) and shift-reduce probabilistic pushdown automata (PPDAs) have been used for language modeling and maximum likelihood parsing.
+This paper presents the use of probabilistic class-based lexica for disambiguation in target-word selection.
+We discuss combining knowledge-based (or rule-based) and statistical part-of-speech taggers.
+verbs, named entities and base noun phrases) in passage context utilization and answer sentence extraction.
+This paper presents a method for extracting subcorpora documenting different subcategorization frames for verbs, nouns, and adjectives in the 100 mio.
+It supports Chinese and English word segmentation, Chinese named entity recognition, Chinese part of speech tagging and phrase conglutination.
+We study unsupervised methods for learning refinements of the nonterminals in a treebank.
+Pos811D.
+We present a machine-learning approach to modeling the distribution of noun phrases (NPs) within clauses with respect to a fine-grained taxonomy of grammatical relations.
+representation methods, hypermedia maps.
+hypermedia writing.
+.
+1			Back梤eferencing in text		?.
+11			Belief structure	.
+handwriting).
+in Machine Translation).
+Existing speech recognizers work best for "high-quality close-talking speech."
+We show how to do this using , -reduction constraints in the constraint language for A-structures (CLLS).
+Among the transformational grammarsi.
+incomplete syntactic analysis.
+(1990) Modelling the perception of concurrent vowels: vowels with different fundamental frequencies.
+base forms and POS tags.
+without enumerating readings.
+We describe an algorithm for recovering non-local dependencies in syntactic dependency structures.
+Such tasks include sentence splitting, tokenization, named-entity extraction, and chunking.
+a finite-state transducer.
+We automatically classify verbs into lexical se-mantic classes, based on distributions of indica-tors of verb alternations, extracted from a very large annotated corpus.
+parsing procedures and semantic head-driven generation.
+Dialogue system for 3D virtual environ-ments).
+General structure of PORTUGA: A - analysis, G - generation.
+These models employ tf.idf to encode the weights of content and non-content words in phrase translation pairs.
+We detect similarity, strength, antonymy, enablement, and temporal happens-before relations between pairs of strongly associated verbs using lexicosyntactic patterns over the Web.
+This paper describes new default unification, lenient default unification.
+noun phrase (NP) syntax.
+We collected declaratively subjective clues in opinion- expressing sentences from Japanese web pages retrieved with opinion search queries.
+This paper presents PROVERB a text planner for argumentative texts.
+This paper discusses a novel probabilistic synchronous TAG formalism, synchronous Tree Substitution Grammar with sister adjunction (TSG+SA).
+We extend default unification to non-parallel structures, which is important for speech and multimodal dialog systems.
+The CP types considered include adjective-verb (AV), noun-verb (NV), adverb-verb (Adv-V), and verb-verb (VV) composites.
+variable-matching without variable substitution.
+We present in this paper the method of English-to-Korean(E-K) transliteration and back-transliteration.
+in morphological analysis).
+Chinese part-of-speech (POS) tagging assigns one POS tag to each word in a Chinese sentence.
+Our CWS is based on backward maximum matching with word support model (WSM) and contextual-based Chinese unknown word identification.
+In this paper, subclasses of monadic context- free tree grammars (CFTGs) are compared.
+We have constructed the IPA Lexicon of Basic Japanese Nouns (IPAL-BN), which has a hierarchical structure based on the syntactic and semantic proper-ties of nouns.
+We present a discourse process that recognizes characters' thoughts and perceptions in third-person narrative.
+SCsem is the semantic weighting.
+expressions denoting geographical localisations).
+We find they can capture effectively allophonic variation, alternative pronunciation, word co-articulation and segmental durations.
+Dutch subordinate clauses.
+Dutch subordinate clauses for non-transformational theories of grammar.
+We then examine the effect of integrating pausal and spontaneous speech phe-nomena into syntactic rules for speech recognition, using118 sentences.
+Speaker independent phonetic transcription of fluent speech is performed using an ergodic continuously variable duration hidden Markov model (CVDHMM) to represent the acoustic, phonetic and phonotac tic structure of speech.
+We present a comparison of two formalisms for representing natural language utterances, namely deep syntactical Tectogrammatical Layer of Functional Generative Description (FGD) and a semantic formalism, MultiNet.
+We present an empirical study of the applicability of Probabilistic Lexicalized Tree Insertion Grammars (PLTIG), a lexicalized counterpart to Probabilistic Context-Free Grammars (PCFG), to problems in stochastic natural- language processing.
+This paper describes the user expertise model in AthosMail, a mobile, speech-based e-mail system.
+trigger words and parsing structures.
+The paper proposes a Constrained Entity- Alignment F-Measure (CEAF) for evaluating coreference resolution.
+We present a linguistically-motivated algorithm for reconstructing nonlocal dependency in broad-coverage context-free parse trees derived from treebanks.
+We describe an implementation of data- driven selection of emphatic facial displays for an embodied conversational agent in a dialogue system.
+Managing Gigabytes: Compressing and Indexing Documents and Images, Academic Press/Morgan Kaufmann.
+WORD- NET DOMAINS).
+We consider the translation of European Parliament Speeches.
+We investigate the problem of learning a part-of-speech (POS) lexicon for a resource-poor language, dialectal Arabic.
+We apply these Simple Synchrony Networks to mapping sequences of word tags to parse trees.
+Language Understanding (NLU) systems,particularly for data-driven ones.
+knowledge and language-specific heuristics.
+Figure 1: Dimensions of Language Engineering Complexity.
+We use statistical dependency parsers to determine dependency relations between base phrases in a sentence.
+We address the problem of transliterating English names using Chinese orthography in support of cross-lingual speech and text processing applications.
+information technology test reports and medical finding reports.
+We apply Support Vector Machines (SVMs) to identify English base phrases (chunks).
+We apply weighted voting of 8 SVMs-based systems trained with distinct chunk repre-sentations.
+We examine the utility of multiple types of turn-level and contextual linguistic features for automatically predicting student emotions in human-human spoken tutoring dialogues.
+Models used include unique-phone-in-word, phone-in- word, triphone, biphone, and generalized-phone forms of biphones and triphones, as well as context-independent models.
+part-of-speech tagged corpora).
+LFG and GPSG are augmented PS- grammars.
+We propose astemming method for Mongolian to extractloanwords correctly.
+This paper outlines a formal computational semantics and pragmatics of the major speech act types.
+This paper presents a unified approach for Chinese lexical analysis using hierarchical hidden Markov model (HHMM), which aims to incorporate Chinese word segmentation, Part-Of-Speech tagging, disambiguation and unknown words recognition into a whole theoretical frame.
+We address Question Answering (QA) for biographical questions, i.e., questions asking for biographical facts about persons.
+error types).
+This paper describes a system and set of algorithms for automatically inducing stand-alone monolingual part-of-speech taggers, base noun-phrase bracketers, named-entity taggers and morphological analyzers for an arbitrary foreign language.
+CTXMATCH performs a linguistic processing of the labels attached to the nodes, including tokenization, Part of Speech tagging, multiword recognition and word sense disambiguation.
+This paper presents Trace dr Unification Grammar (TUG), a declarative and reversible grammar formalism that brings together Unification Grammar (UG) and ideas of Government dr Binding Theory (on).
+in GPSO and HPSG.
+Bayesian, decision tree and neural network classifiers) to discover language model errors.
+very large corpora of strings.
+We present two methods for unsupervised segmentation of words into morpheme-like units.
+This paper regards Question Answering (QA) as Question-Biased Term Extraction (QBTE).
+The method combines morphological and lex-ical processing, bilingual word alignment, and graph-theoretic cluster generation.
+These include letter substitution ciphers, character code conversion, phonetic decipherment, and word-based ciphers with relevance to machine translation.
+building classifiers using acoustic-prosodic features.
+plus petits.
+database tuples).
+This paper explores the problem of identifying sen-tence boundaries in the transcriptions produced by automatic speech recognition systems.
+Human face-to-face conversation is an ideal model for human-computer dialogue.
+We propose a paraphrasing model for LVCs that is based on transforming the Lexical Conceptual Structures (LCSs) of verbal elements.
+We define an Earley parsing schema for STG's and characterize the valid parse items.
+We incorporate some consequence relations into DRT using se- writ calculi.
+This paper describes a media-independent, compositional, plan-based approach to representing attributive descriptions for use in integrated text and graphics generation.
+We investigate the suitability of sub-categorization acquisition for evalu-ation of word sense disambiguation (WSD) systems.
+We extend Traum抯 grounding act model by introducing degree of groundedness, and partial and mid-discourse unit grounding.
+such as definite noun phrases and pronouns, in a discourse.
+base phrases) into the arguments of a predicate.
+We propose a context-sensitive method to predict noun- phrases in the next utterance of a telephone inquiry dialogue.
+It uses two steps: the N-best Part-Of-Speech (POS) tagging and baseNP identification given the N-best POS-sequences.
+We therefore use phonetic recognition of utterances and search for salient phonetic sequences within the decodings.
+We introduce a new method for recovering empty nodes and their antecedents (capturing long distance dependencies) from parser output in CFG trees using LFG f-structure reentrancies.
+We here investigate questions with implicatures related to biography facts in a web-based QA system, PowerBio.
+A verb paradigm is a set of inflectional categories for a single verb lemma.
+We present the dialogue module of the speech-to-speech translation system VERB-MOBIL.
+We describe an approach to resolving definite descriptions and pronominal anaphora as subcases of a general strategy for presupposition satisfaction.
+We automatically detect t(opic) and f(ocus), using node attributes from the treebank as basic features and derived features inspired by the annotation guidelines.
+We apply interpretive rules to clausal patterns and patterns of modification, and concurrently abstract general 損ossibilistic?propositions from the resulting formulas.
+We defined 10 Descriptive Answer Type(DAT)s as answer types for descriptive questions.
+information retrieval, translation unit discovery, and corpus studies.
+This paper describes how to construct a finite-state machine (FSM) approximating a 'unification-based' grammar using a left-corner grammar transform.
+We call this model a logarithmic opinion pool (LOP) of CRFs (LOP-CRFs).
+In this paper we investigate probabilistic, contextual, and phonological factors that influence pitch accent placement in natural, conversational speech in a sequence labeling setting.
+We present a learning-based method to identify single-snippet answers to definition questions in question answering systems for document collections.
+The sys-tem is an application of maximum entropy clas-sification for question/answer type prediction and named entity marking.
+This paper presents a sentence- based statistical model for Hangeul-Hanja conversion, with word tokenization included as a hidden process.
+information extraction).
+In this paper, we apply a novel source-channel model to the problem of morphological disambiguation (segmentation into morphemes, lemmatization, and POS tagging) for concatenative, templatic, and inflectional languages.
+We present a generic template for spoken dialogue systems integrating speech recognition and synthesis with 'higher-level' natural language dialogue modelling components.
+classification of unseen verbs.
+The paper fo-cuses on phonology.
+We analyzed eye gaze, head nods and attentional focus in the context of a direction-giving task.
+This paper presents the user-centered interface of a summarization system for physicians in Bone Marrow Transplan-tation (BMT).
+the complexity of language domain and concept inventory).
+We introduce CST (cross-document structure theory), a paradigm for multi-document analysis.
+We present the multilingual sum-marization functionality for VERB-MOBIL, a speech translation system.
+In this paper we present Morphy, an integrated tool for German morphology, part-ofspeech tagging and context-sensitive lemmatization.
+This paper investigates the impact of Constraint Dependency Grammars (CDG) on the accuracy of an integrated speech recognition and CDG pars-ing system.
+relative clauses.
+passivisation.
+and questions.
+The sentence-level discourse parser uses syntactic information and cue phrases to segment sentences into elementary discourse units and to generate discourse structures of sentences.
+We use LFG抯 functional representations to distinguish local and non-local role assignments.
+The domain- specific system has a three-stage pipeline architecture which includes word segmentation and part-of-speech (POS) tagging, named entity recognition, and named entity relation identitfication.
+grammatical function, phrase type, and other syntactic traits).
+a tagset containing information about wordclasses.
+We cluster verbs into lexical semantic classes, using a general set of noisy features that capture syntactic and semantic properties of the verbs.
+subordinators and verbs).
+We develop admissible A* search heuristics for synchronous parsing with Inversion Transduction Grammar, and present results both for bitext alignment and for machine translation decoding.
+the task of WSD of Word- Net glosses and the task of WSD of English lexical sample.
+hypernymy glosses, holonymy mixture, descriptive glosses and some hybrid mixtures of these glosses.
+We use a highly interactive bottom-up inductive logic programming (ILP) algorithm to learn `missing' grammar rules from an incomplete grammar.
+The system learns lexico-structural transfer rules using syntactic pat-tern matching, statistical co-occurrence and error-driven filtering.
+a noun in a noun phrase).
+mantics of Combinatory Categorial Grammar, including its handling of coordination constructs.
+GermaNet and FrameNet.
+LFG and PATR-II.
+the language used in official encyclopaedic articles.
+We extracted meaningful bigrams using an evaluation function and extended the bigrams to n-gram collocations by generating equivalence sets, a-covers.
+We view a modeling problem for n-gram collocations as that for clustering of cohesive words.
+directly stored relations.
+These kinds of anaphora are pronominal references, surface- count anaphora and one-anaphora.
+We connect VerbNet and FrameNet by mapping the FrameNet frames to the VerbNet Intersective Levin classes.
+We describe a method for interpreting abstract flat syntactic representations, LFG f- structures, as underspecified semantic representations, here Underspecified Discourse Representation Structures (UDRSs).
+QACIAD (Question Answering Challenge for Information Access Dialogue) is an evaluation framework for measuring interactive question answering (QA) technologies.
+We propose a structured semantic representation, the Lexical Conceptual Paradigm (LOP) which groups nouns into paradigmatic classes exhibiting like behavior.I.
+basic segmentation, named entity recognition, error-driven learner and new word detector.
+These FSAs are good representations of paraphrases.
+We describe a data-driven approach to building interpretable discourse structures for appointment scheduling dialogues.
+In this paper, we investigate the acoustic prosodic mark-ing of demonstrative and personal pronouns in task-oriented dialog.
+Generative-Transformational Grammars, General Phrase Structure Grammars, Lexical Functional Grammar.
+We investigate prototype-driven learning for primarily unsupervised sequence modeling.
+This paper describes a mix word-pair mix-WP) identifier to resolve homo-nym/segmentation ambiguities as well as perform STW conversion effec-tively for Chinese input.
+We first tested the beam thresholding and iterative parsing developed for PCFG parsing with an HPSG.
+culminating ideally in soundness J id completeness theorems.
+Intersentential elliptical utterances occur frequently in information-seeking dialogues.
+We introduce feature terms containing sorts, variables, negation and named disjunction for the specification of feature structures.
+and lean declarative impIe.mentation.
+We propose a syntactic filter for identifying non-coreferential pronoun-NP pairs within a sentence.
+LFG f-structures or HPSG feature structures, to dependency triples simple.
+In Online Inquiry-Based Learning (OIBL) learners search for information to answer driving questions.
+This paper presents our work on real-izing expressions of doubt appropriately in natural language dialogues.
+Non-fiction	11.
+Fiction	K. General Fiction	I.
+(WSJ) speech corpus.
+We present a bottom-up approach to arranging sentences extracted for multi-document summarization.
+We apply the supervised decision list learn-ing method to Japanese named entity recogni-tion.
+Core Roles versus Adjuncts).
+We provide an XML serialization for intercomponent communication.
+In this work we learn clusters of contextual annotations for non-terminals in the Penn Treebank.
+Root based clusters can substitute dictionaries in indexing for IR.
+This paper describes classification of typed student utterances within AutoTutor, an intelligent tutoring system.
+We present an algorithm that learns the cross-language correspondence between affixes and letter sequences.
+We apply default inheritance hierarchies to generating the morphology of Hebrew verbs.
+a local area network).
+1 Korean syllable structure3.
+valid prefixes.
+The TIPSTER.
+We present ongoing work on prosody predic-tion for speech synthesis.
+We retrieve mixed- language web pages based on the expanded queries.
+at Grenoble.
+We learn models of answer type, query content, and answer extraction from clusters of similar questions.
+This paper investigates adapting a lexicalized probabilistic context-free grammar (PCFG) to a novel domain, using maximum a posteriori (MAP) estimation.
+generate non_grammatical sent_ ences.
+We describe an approach to surface generation designed for a "pragmatics-based" dialogue system.
+Stochastic unification-based grammars (SUBGs) define exponential distributions over the parses generated by a unification- based grammar (UBG).
+1 IntroductionStochastic Unification-Based Grammars (SUBGs) use log-linear models (also known as exponential or MaxEnt models and Markov Random Fields) to define probability distributions over the parses of a unification grammar.
+We discuss a grammar development process used to generate the trees of the wide-coverage Lexicalized Tree Adjoining Grammar (LTAG) for English of the XTAG Project.
+The discourse entities are used in intra- and extra-sentential pronoun resolution in BBN Janus.
+OF COLING-92.
+possible structural and lexical attributes.
+Coreference resolution involves finding antecedents for anaphoric discourse entities, such as definite noun phrases.
+Our algorithm generates lists of non- anaphoric noun phrases and noun phrase patterns from a training corpus and uses them to recognize non-anaphoric noun phrases in new texts.
+in machine translation).
+We introduce factored language models (FLMs) and generalized parallel backoff (GPB).
+Michael met Maria at the cinema.
+This paper explores the segmentation of tutorial dialogue into cohesive topics.
+DTG involve two composition operations called subsertion and sister-adjunction.
+The Smooth Injective Map Recognizer (SIMR) is a new bitext mapping algorithm.
+We present an authoring system for logical forms encoded as conceptual graphs (CG).
+time, causality.
+Structural information is provided by such hierarchical prosodic constituents as Syllable (S), Metrical Foot (MF), Phonological Word (PW), Intonational Group (IG).
+The algorithm differentiates degree and event modifiers from nouns that quantify noun phrases.
+This paper describes an original hybrid system that extracts multiword unit candidates from part-of-speech tagged corpora.
+This paper presents a human梞achine dialogue model in the field of task梠riented dialogues.
+This paper presents the results of an experiment using machine-readable dictionaries (MRDs) and corpora for building concatenative units for text to speech (ITS) systems.
+groups of words).
+significant power to an NL system.
+We compare vectors containing counts of trigrams of part-of-speech (POS) tags in order to obtain an aggregate measure of syntax difference.
+This ex-planation accounts for prefixing, suffix-ing and infixing.
+LFG and PATR-II.
+We consider the problem of parsing non-recursive context-free grammars, i.e., context-free grammars that generate finite languages.
+in terms or facts and rules) .
+and 63 lexical entry templates (assigned to parts of speech (POSs) ).
+In this paper we present TroFi (Trope Finder), a system for automatically classifying literal and nonliteral usages of verbs through nearly unsupervised word-sense disambiguation and clustering techniques.
+OF COLING-92.
+information extraction, text sum-marisation, document generation, machine translation, and second language learning).
+ARGUMENTATION AND THE SEMANTIC PROGRAM.
+This paper discusses relationships among word pronunciations.
+Association for Computational Linguistics.
+This paper proposes the 揌ierarchical Directed Acyclic Graph (HDAG) Kernel?for structured natural language data.
+XMLencodingNon-XML EncodingFigure 3.
+We make use of a conditional log杔inear model, with hidden variables representing the assignment of lexical items to word clusters or word senses.
+We define POS blocks to be groups of parts of speech.
+We describe a statistical approach for modeling agreements and disagreements in conversational interaction.
+)In the Information Retrieval community.
+We investigate the effect of corpus size in combining supervised and unsupervised learning for two types of attachment decisions: relative clause attachment and prepositional phrase attachment.
+We connect VerbNet and FrameNet by mapping the FrameNet frames to the VerbNet Intersective Levin classes.
+We look at self-triggerability across hyperlinks on the Web.
+We discuss shift- reduce parsing of stochastic context-free grammars and show how to construct a probabilistic score for ranking competing parse hypotheses.
+This paper discusses an approach to modeling monolingual and bilingual dictionaries in the description logic species of the OWL Web Ontology Language (OWL DL).
+We describe a biographical multi-document summarizer that summarizes information about people described in the news.
+This paper introduces an open computational framework for visual perception and grounded language acquisition called Experience-Based Language Acquisition (EBLA).
+We describe experiments learning quasi-synchronous context-free grammars from bitext.
+This paper describes an implemented mechanism for handling bound anaphora, disjoint reference, and pronominal reference.
+This paper describes text meaning represen-tation for Chinese.
+Structural (attachment.)
+theme/rheme and background/kontrast.
+without inflections or conjugations.
+We describe the treatment of questions (Question-Answer Typology, question parsing, and results) in the Weblcopedia question answering system.
+GermaNet, WordNet).
+the Italian wordnet in EuroWordNet (ItalWordNet).
+lion (11) .
+We describe a novel method for detecting errors in task-based human-computer (HC) dialogues by automatically deriving them from semantic tags.
+This paper presents a disambiguation approach for translating non-segmented-Kana into Kanji.
+These rules are noun sequences with part-of-speech tags.
+This paper describes methods for finding taxonomy and set-membership relationships, recognizing nouns that ordinarily represent human beings, and identifying active and stative verbs and adjectives.
+This paper describes Acorn, a sentence planner and surface realizer for dialogue systems.
+POS-tagging, lemmatisation and a thesaurus-like thematic dictionary.
+the event profile.
+This process is known as 'compiling HPSG to TAG' and derives a Lexicalized Tree-Adjoining Grammar (LTAG).
+We classify the problematic behavior into "static disambiguation" and "dynamic disambiguation" tasks.
+This paper describes an attribute grammar specification of the Government-binding theory.
+easy vs difficult dialogs).
+CATEGORY assigns names in hierachies.
+In this paper a bidirectional parser for Lexicalized Tree Adjoining Grammars will be presented.
+in a prepositional phrase.
+a proper name or noun phrase.
+We compose three out-of-vocabulary extraction modules: Character-based tag-ging with different classifiers ?maximum entropy, support vector machines, and con-ditional random fields.
+It labels semantic roles of parsed sentences.
+We are concerned with dependency- oriented morphosyntactic parsing of running text.
+of deep cases relations (or thematic relations).
+Schemata are representational structures for stereotypical paragraphs that describe objects.
+We present minimally supervised methods for training and testing geographic name disambiguation (GND) systems.
+In this paper, we present a method of estimating referents of demonstrative pronouns, personal pronouns, and zero pronouns in Japanese sentences using examples, surface expressions, topics and foci.
+This paper presents the results of automatically inducing a Combinatory Categorial Grammar (CCG) lexicon from a Turkish dependency treebank.
+This paper investigates semantic and pragmatic presupposition in Discourse Representation Theory (DRT) and enhances the pragmatic perspective of presupposition in DRT.
+We address the problem of multi-way relation classification, applied to identification of the interactions between proteins in bioscience text.
+This paper examines feature selection for log linear models over rich constraint-based grammar (HPSG) representations by building decision trees over features in corresponding probabilistic context free grammars (PCFGs).
+-- the problem of diacritics and digraphs.
+We report here the contribution of default sense selection, idiomatic usage, syntactic and semantic clues, subcategorization patterns, word forms, syntactic usage, context, selectional preferences, and topics or subject fields.
+In the GPSG framework.
+We offer a semantics and pragmatics of the pluperfect in narrative discourse.
+This paper presents Archivus, a multi- modal language-enabled meeting browsing and retrieval system.
+This paper presents LexPhon, a computational framework for modelling segmental aspects of Lexical Phonology (LP).
+This paper focuses on the use of Finite State morphological analysis (FST) resources for Irish and Part of Speech (POS) taggers for German.
+We introduce a first-order language for semantic underspecification that we call Constraint Language for Lambda-Structures (CLLS).
+CLLS features constraints for dominance, lambda binding, parallelism, and anaphoric links.
+We call sentences like (2) semantically disambiguatable garden path sentences (SDGPs).
+GEMS is lexically distributed.
+We present a method for recognizing semantic role arguments using a kernel on weighted marked ordered labeled trees (the WMOLT kernel).
+problem oriented systems.
+the grammatical morphemes  of the language.
+This paper extends the base noun phrase(BNP) identification into a research on Chinese base phrase identification.
+This paper discusses word choice for natural language generation.
+The paper describes a new unification based grammar formalism called Regular Unification Grammar (RUG).
+We present a very efficient statistical incremental parser for LTAG-spinal, a variant of LTAG.
+PARSE GRAPH STRUCTUREThe Parse Graph Structure (PGS) is built by the parser while applying grammar rules.
+Pronunciation-by-analogy (PbA) is an emer-ging technique for text-phoneme conversion based on a psychological model of read-ing aloud.
+They are morphological transformation and morpheme Identification.
+the primary driving task.
+bilingual dictionaries).
+Language understanding work at Paramax focuses on applying general-purpose language understanding technology to spoken language understanding, text understanding, and document processing, integrating language understanding with speech recognition, knowledge-based information retrieval and image understanding.
+This paper describes an operational se-mantics for DATR theories.
+Such speech acts represent dialogue deviations.
+Acoustic modeling uses cepstrum-based features, context-dependent phone models (intra and interword), phone duration models, and sex- dependent models.
+The notion of stochastic lexicalized tree-adjoining grammar (SLTAG) is formally defined.
+We describe a pilot project in semiautomatically refactoring a biomedical corpus.
+phonological rules or metrical systems).
+This paper presents work on using Bayesian networks for the dialogue act recognition module of a dialogue sys-tem for Dutch dialogues.
+This paper presents a method for auto-matically recognizing local cohesion be-tween utterances, which is one of the dis-course structures in task-oriented spoken dialogues.
+Th nlyzr pplis "phrs spotting" mhnism on th output of th sph rognition modul.
+the distribution.
+distinctive features.
+Our approach yields phrasal and single word lexical paraphrases as well as syntactic para-phrases.
+sys-tem.
+We associate phrases by frame-based semantics.
+We represent questions as frequency weighted vectors of salient terms.
+We analyze the association of noun-noun and noun-verb pairs in LOB Corpus.
+superordinate substitution, and definite noun phrase reiteration.
+We apply SVMs to Japanese dependency structure iden-tification problem.
+Confidence measures for MT outputs include the rank-sum-based confidence measure (RSCM) for statistical machine translation (SMT) systems.
+(TSR trees).
+unscripted) speech.
+SEM encodes logical semantics.
+This paper presents a word-pair (WP) identifier that can be used to resolve homonym/segmentation ambiguities and perform syllable-to-word (STW) conversion effectively for improving Chinese input systems.
+It detects mistypes, Kana-to-Kanji misconversions, and stylistic errors.
+We investigate the logical structure of concepts generated by conjunction and disjunction over a monotonic multiple inheritance network where concept nodes represent linguistic categories and links indicate basic inclusion (isA) and disjointness (IsNoTA) relations.
+This method focuses on semantic and pragmatic constraints such as semantic constraints on cases, modal expressions, verbal semantic attributes and conjunc-tions to determine the deictic reference of Japanese zero pronouns.
+In this paper we describe how to hierarchically organize abstract nouns (adjective hyperonyms) in a semantic map mainly using CSM.
+This study addresses pronominal anaphora resolution, including zero pronouns, in Chinese.
+The interlingua.
+noun plural markers.
+This paper describes the Speech Application Language Tags, or SALT, an XML based spoken dialog standard for multimodal or speech-only applications.
+We coerce the English FrameNet into Chinese using a bilingual lexicon, frame context in FrameNet and taxonomy structure in HowNet.
+This paper discusses the lexical knowledge of idioms for idiom recognition.
+This paper describes the tree-structured maximum mutual information (MMI) encoders used in SSI's Phonetic Engine?to perform large-vocabulary, continuous speech recognition.
+These templates represent grammatically correct sentence patterns.
+Further, we have developed MM-DCG translator to transfer rules in MM-DCG into Prolog predicates.
+relation based sim-ilarity measure and distribution based similarity measure.
+A LOGICAL SEMANTICSFOR NONMONOTONIC SORTSMark A.
+the cross-entropy.
+Natural language parsing requires ex-tensive lexicons containing subcategori-sation information for specific sublan-guages.
+We explore the use of Support Vector Ma-chines (SVMs) for biomedical named en-tity recognition.
+Motion Verbs.
+Bilingual Corpus-based Analysis.
+sidesg.
+oppositesg.
+We represent shallow linguistic information as linguistic features in our ME model.
+as a hybrid system.
+We review studies of reference resolution, word recognition, and pragmatic effects on syntactic ambiguity resolution.
+We perform Noun Phrase Bracketing by using a local, maximum entropy-based tagging model, which produces bracketing hypotheses.
+domain-independent, semantic information for question interpretation.
+In this paper I outline Type-inheritance Combinatory Categorial Grammar (TCCG), an implemented feature structure based CCG fragment of English.
+The grammars used for speech recognition dictate legal word sequences.
+We extract LFG subcategorisation frames and paths linking LDD reentrancies from f-structures generated automatically for the Penn-II treebank trees and use them in an LDD resolution algorithm to parse new text.
+This paper proposes a discriminative HMM (DHMM) with long state dependence (LSDDHMM) to segment and label sequential data.
+This part-ofspeech predictor will be used in a part-of-speech tagger to handle out-of-lexicon words.
+This paper describes discriminative language modeling for a large vocabulary speech recognition task.
+Rohrer.
+We describe a bidirectional framework for natural language parsing and genera-tion, using a typed feature formalism arid an HPSG-based grammar with a parser arid generator derived from parallel pro-cessing algorithms.
+We present a Korean question answering framework for restricted domains, called K-QARD.
+morphological derivation and synonymy expansion) in web search strategies.
+information technology test reports and medical finding reports.
+We extract abstract syntactic function-based subcategorisation frames (LFG semantic forms), traditional CFG category- based subcategorisation frames as well as mixed function/category-based frames, with or without preposition information for obliques and particle information for particle verbs.
+WordNet) to ambiguous words occurring in a syntactic dependency.
+We present a method for determining the referents of noun phrases in Japanese sentences by using the referential properties, modifiers, and possessors' of noun phrases.
+Furthermore we used the modifiers and possessors of noun phrases in determining the referents of noun phrases.
+This paper describes named entity (NE) extraction based on a max-imum entropy (M.E.)
+model and transformation rules.
+The chunker partitions the part-of-speech sequence into segments called chunks.
+Existing methods learn statistics on trimming context-free grammar (CFG) rules.
+We present a coreference resolver called BABAR that uses contextual role knowledge to evaluate possible antecedents for an anaphor.
+We perform a linguistic analysis of documents during indexing for information retrieval.
+ethnologue.com).
+PROLOG.
+We present experiments training log-linear combinations of models for dependency parsing and for machine translation.
+We use linguistic patterns and HTML text structures to extract text fragments contain-ing term descriptions.
+This paper presents a computational model of incremental utterance produc-tion in task-oriented dialogues.
+Tagging compound verb groups in an annotated corpus exploiting the verb rules is described.Keywords: compound verb groups, chunking, morphosyntactic tagging, inductive logic pro-gramming
+Text metadata.
+We describe a method for retrieving counts for adjective-noun, noun-noun, and verb- object bigrams from the web by querying a search engine.
+We describe Talk'n'Travel, a spoken dialogue language system for making air travel plans over the telephone.
+This paper proposes an error-driven HMM-based text chunk tagger with context-dependent lexicon.
+This paper describes DialogueView, a tool for annotating dialogues with utter-ance boundaries, speech repairs, speech act tags, and discourse segments.
+Both probabilistic context-free grammars (PCFGs) and shift-reduce probabilistic pushdown automata (PPDAs) have been used for language modeling and maximum likelihood parsing.
+This paper presents the use of probabilistic class-based lexica for disambiguation in target-word selection.
+We discuss combining knowledge-based (or rule-based) and statistical part-of-speech taggers.
+verbs, named entities and base noun phrases) in passage context utilization and answer sentence extraction.
+This paper presents a method for extracting subcorpora documenting different subcategorization frames for verbs, nouns, and adjectives in the 100 mio.
+It supports Chinese and English word segmentation, Chinese named entity recognition, Chinese part of speech tagging and phrase conglutination.
+We study unsupervised methods for learning refinements of the nonterminals in a treebank.
+Pos811D.
+We present a machine-learning approach to modeling the distribution of noun phrases (NPs) within clauses with respect to a fine-grained taxonomy of grammatical relations.
+representation methods, hypermedia maps.
+hypermedia writing.
+.
+1			Back梤eferencing in text		?.
+11			Belief structure	.
+handwriting).
+Existing speech recognizers work best for "high-quality close-talking speech."
+We show how to do this using , -reduction constraints in the constraint language for A-structures (CLLS).
+Among the transformational grammarsi.
+incomplete syntactic analysis.
+(1990) Modelling the perception of concurrent vowels: vowels with different fundamental frequencies.
+This paper proposes a bidirctional hierarchical clustering algorithm for simultaneously clustering words of different parts of speech based on collocations.
+base forms and POS tags.
+without enumerating readings.
+We describe an algorithm for recovering non-local dependencies in syntactic dependency structures.
+Such tasks include sentence splitting, tokenization, named-entity extraction, and chunking.
+a finite-state transducer.
+We automatically classify verbs into lexical se-mantic classes, based on distributions of indica-tors of verb alternations, extracted from a very large annotated corpus.
+parsing procedures and semantic head-driven generation.
+Dialogue system for 3D virtual environ-ments).
+General structure of PORTUGA: A - analysis, G - generation.
+These models employ tf.idf to encode the weights of content and non-content words in phrase translation pairs.
+We detect similarity, strength, antonymy, enablement, and temporal happens-before relations between pairs of strongly associated verbs using lexicosyntactic patterns over the Web.
+noun phrase (NP) syntax.
+We collected declaratively subjective clues in opinion- expressing sentences from Japanese web pages retrieved with opinion search queries.
+This paper presents PROVERB a text planner for argumentative texts.
+We extend default unification to non-parallel structures, which is important for speech and multimodal dialog systems.
+The CP types considered include adjective-verb (AV), noun-verb (NV), adverb-verb (Adv-V), and verb-verb (VV) composites.
+variable-matching without variable substitution.
+We present in this paper the method of English-to-Korean(E-K) transliteration and back-transliteration.
+in morphological analysis).
+Chinese part-of-speech (POS) tagging assigns one POS tag to each word in a Chinese sentence.
+Our CWS is based on backward maximum matching with word support model (WSM) and contextual-based Chinese unknown word identification.
+In this paper, subclasses of monadic context- free tree grammars (CFTGs) are compared.
+We have constructed the IPA Lexicon of Basic Japanese Nouns (IPAL-BN), which has a hierarchical structure based on the syntactic and semantic proper-ties of nouns.
+We present a discourse process that recognizes characters' thoughts and perceptions in third-person narrative.
+SCsem is the semantic weighting.
+expressions denoting geographical localisations).
+We find they can capture effectively allophonic variation, alternative pronunciation, word co-articulation and segmental durations.
+Dutch subordinate clauses.
+Dutch subordinate clauses for non-transformational theories of grammar.
+We then examine the effect of integrating pausal and spontaneous speech phe-nomena into syntactic rules for speech recognition, using118 sentences.
+Speaker independent phonetic transcription of fluent speech is performed using an ergodic continuously variable duration hidden Markov model (CVDHMM) to represent the acoustic, phonetic and phonotac tic structure of speech.
+We present a comparison of two formalisms for representing natural language utterances, namely deep syntactical Tectogrammatical Layer of Functional Generative Description (FGD) and a semantic formalism, MultiNet.
+We present an empirical study of the applicability of Probabilistic Lexicalized Tree Insertion Grammars (PLTIG), a lexicalized counterpart to Probabilistic Context-Free Grammars (PCFG), to problems in stochastic natural- language processing.
+This paper describes the user expertise model in AthosMail, a mobile, speech-based e-mail system.
+trigger words and parsing structures.
+The paper proposes a Constrained Entity- Alignment F-Measure (CEAF) for evaluating coreference resolution.
+This paper proposes an alignment adaptation	approach	to	improvedomain-specific (in-domain) word alignment.
+We describe an implementation of data- driven selection of emphatic facial displays for an embodied conversational agent in a dialogue system.
+Managing Gigabytes: Compressing and Indexing Documents and Images, Academic Press/Morgan Kaufmann.
+WORD- NET DOMAINS).
+We consider the translation of European Parliament Speeches.
+We investigate the problem of learning a part-of-speech (POS) lexicon for a resource-poor language, dialectal Arabic.
+We apply these Simple Synchrony Networks to mapping sequences of word tags to parse trees.
+Language Understanding (NLU) systems,particularly for data-driven ones.
+knowledge and language-specific heuristics.
+Figure 1: Dimensions of Language Engineering Complexity.
+We use statistical dependency parsers to determine dependency relations between base phrases in a sentence.
+We address the problem of transliterating English names using Chinese orthography in support of cross-lingual speech and text processing applications.
+information technology test reports and medical finding reports.
+We apply Support Vector Machines (SVMs) to identify English base phrases (chunks).
+We apply weighted voting of 8 SVMs-based systems trained with distinct chunk repre-sentations.
+We examine the utility of multiple types of turn-level and contextual linguistic features for automatically predicting student emotions in human-human spoken tutoring dialogues.
+Models used include unique-phone-in-word, phone-in- word, triphone, biphone, and generalized-phone forms of biphones and triphones, as well as context-independent models.
+part-of-speech tagged corpora).
+LFG and GPSG are augmented PS- grammars.
+We propose astemming method for Mongolian to extractloanwords correctly.
+This paper outlines a formal computational semantics and pragmatics of the major speech act types.
+This paper presents a unified approach for Chinese lexical analysis using hierarchical hidden Markov model (HHMM), which aims to incorporate Chinese word segmentation, Part-Of-Speech tagging, disambiguation and unknown words recognition into a whole theoretical frame.
+We address Question Answering (QA) for biographical questions, i.e., questions asking for biographical facts about persons.
+error types).
+This paper describes a system and set of algorithms for automatically inducing stand-alone monolingual part-of-speech taggers, base noun-phrase bracketers, named-entity taggers and morphological analyzers for an arbitrary foreign language.
+CTXMATCH performs a linguistic processing of the labels attached to the nodes, including tokenization, Part of Speech tagging, multiword recognition and word sense disambiguation.
+This paper presents Trace dr Unification Grammar (TUG), a declarative and reversible grammar formalism that brings together Unification Grammar (UG) and ideas of Government dr Binding Theory (on).
+in GPSO and HPSG.
+Bayesian, decision tree and neural network classifiers) to discover language model errors.
+very large corpora of strings.
+This paper regards Question Answering (QA) as Question-Biased Term Extraction (QBTE).
+The method combines morphological and lex-ical processing, bilingual word alignment, and graph-theoretic cluster generation.
+These include letter substitution ciphers, character code conversion, phonetic decipherment, and word-based ciphers with relevance to machine translation.
+building classifiers using acoustic-prosodic features.
+plus petits.
+database tuples).
+This paper explores the problem of identifying sen-tence boundaries in the transcriptions produced by automatic speech recognition systems.
+Human face-to-face conversation is an ideal model for human-computer dialogue.
+We define an Earley parsing schema for STG's and characterize the valid parse items.
+We incorporate some consequence relations into DRT using se- writ calculi.
+This paper describes a media-independent, compositional, plan-based approach to representing attributive descriptions for use in integrated text and graphics generation.
+We investigate the suitability of sub-categorization acquisition for evalu-ation of word sense disambiguation (WSD) systems.
+We extend Traum抯 grounding act model by introducing degree of groundedness, and partial and mid-discourse unit grounding.
+such as definite noun phrases and pronouns, in a discourse.
+base phrases) into the arguments of a predicate.
+We propose a context-sensitive method to predict noun- phrases in the next utterance of a telephone inquiry dialogue.
+We therefore use phonetic recognition of utterances and search for salient phonetic sequences within the decodings.
+We introduce a new method for recovering empty nodes and their antecedents (capturing long distance dependencies) from parser output in CFG trees using LFG f-structure reentrancies.
+We here investigate questions with implicatures related to biography facts in a web-based QA system, PowerBio.
