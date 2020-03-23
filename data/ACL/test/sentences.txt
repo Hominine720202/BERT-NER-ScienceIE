@@ -1,0 +1,269 @@
+A Layered Approach to NLP-Based Information Retrieval.
+A layered approach to information retrieval permits the inclusion of multiple search engines as well as multiple databases, with a natural language layer to convert English queries for use by the various search engines.
+The NLP layer incorporates morphological analysis, noun phrase syntax, and semantic expansion based on WordNet.
+A Frame-Based Probabilistic Framework for Spoken Dialog Management Using Dialog Examples.
+This paper proposes a probabilistic framework for spoken dialog management using dialog examples.
+To overcome the complexity problems of the classic partially observable Markov decision processes -LRB- POMDPs -RRB- based dialog manager, we use a frame-based belief state representation that reduces the complexity of belief update.
+We also used dialog examples to maintain a reasonable number of system actions to reduce the complexity of the optimizing policy.
+We developed weather information and car navigation dialog system that employed a frame-based probabilistic framework.
+This framework enables people to develop a spoken dialog system using a probabilistic approach without complexity problem of POMDP.
+An Expert Lexicon Approach To Identifying English Phrasal Verbs.
+Phrasal Verbs are an important feature of the English language.
+Properly identifying them provides the basis for an English parser to decode the related structures.
+Phrasal verbs have been a challenge to Natural Language Processing -LRB- NLP -RRB- because they sit at the borderline between lexicon and syntax.
+Traditional NLP frameworks that separate the lexicon module from the parser make it difficult to handle this problem properly.
+This paper presents a finite state approach that integrates a phrasal verb expert lexicon between shallow parsing and deep parsing to handle morpho-syntactic interaction.
+With precision\/recall combined performance benchmarked consistently at 95.8 % -97.5 %, the Phrasal Verb identification problem has basically been solved with the presented method.
+Orthogonal Negation In Vector Spaces For Modelling Word-Meanings And Document Retrieval.
+Standard IR systems can process queries such as `` web NOT internet '', enabling users who are interested in arachnids to avoid documents about computing.
+The documents retrieved for such a query should be irrelevant to the negated query term.
+Most systems implement this by reprocessing results after retrieval to remove documents containing the unwanted string of letters.
+This paper describes and evaluates a theoretically motivated method for removing unwanted meanings directly from the original query in vector models, with the same vector negation operator as used in quantum logic.
+Irrelevance in vector spaces is modelled using orthogonality, so query vectors are made orthogonal to the negated term or terms.
+As well as removing unwanted terms, this form of vector negation reduces the occurrence of synonyms and neighbors of the negated terms by as much as 76 % compared with standard Boolean methods.
+By altering the query vector itself, vector negation removes not only unwanted strings but unwanted meanings.
+Partially Supervised Coreference Resolution For Opinion Summarization Through Structured Rule Learning.
+Combining fine-grained opinion information to produce opinion summaries is important for sentiment analysis applications.
+Toward that end, we tackle the problem of source coreference resolution -- linking together source mentions that refer to the same entity.
+The partially supervised nature of the problem leads us to define and approach it as the novel problem of partially supervised clustering.
+We propose and evaluate a new algorithm for the task of source coreference resolution that outperforms competitive baselines.
+Classifying Amharic News Text Using Self-Organizing Maps.
+The paper addresses using artificial neural networks for classification of Amharic news items.
+Amharic is the language for countrywide communication in Ethiopia and has its own writing system containing extensive systematic redundancy.
+It is quite dialectally diversified and probably representative of the languages of a continent that so far has received little attention within the language processing field.
+The experiments investigated document clustering around user queries using SelfOrganizing Maps , an unsupervised learning neural network strategy.
+The best ANN model showed a precision of 60.0 % when trying to cluster unseen data, and a 69.5 % precision when trying to classify it.
+A Structural Similarity Measure.
+This paper outlines a measure of language similarity based on structural similarity of surface syntactic dependency trees.
+Unlike the more traditional string-based measures, this measure tries to reflect `` deeper '' correspondences among languages.
+The development of this measure has been inspired by the experience from MT of syntactically similar languages.
+This experience shows that the lexical similarity is less important than syntactic similarity.
+This claim is supported by a number of examples illustrating the problems which may arise when a measure of language similarity relies too much on a simple similarity of texts in different languages.
+Learning Subjective Nouns Using Extraction Pattern Bootstrapping.
+We explore the idea of creating a subjectivity classifier that uses lists of subjective nouns learned by bootstrapping algorithms.
+The goal of our research is to develop a system that can distinguish subjective sentences from objective sentences.
+First, we use two bootstrapping algorithms that exploit extraction patterns to learn sets of subjective nouns.
+Then we train a Naive Bayes classifier using the subjective nouns, discourse features , and subjectivity clues identified in prior research.
+The bootstrapping algorithms learned over 1000 subjective nouns, and the subjectivity classifier performed well, achieving 77 % recall with 81 % precision.
+A Case-Based Reasoning Approach for Speech Corpus Generation.
+Corpus-based stochastic language models have achieved significant success in speech recognition, but construction of a corpus pertaining to a specific application is a difficult task.
+This paper introduces a Case-Based Reasoning system to generate natural language corpora.
+In comparison to traditional natural language generation approaches, this system overcomes the inflexibility of template-based methods while avoiding the linguistic sophistication of rule-based packages.
+The evaluation of the system indicates our approach is effective in generating users ' specifications or queries as 98 % of the generated sentences are grammatically correct.
+The study result also shows that the language model derived from the generated corpus can significantly outperform a general language model or a dictation grammar.
+Measuring Importance and Query Relevance in Topic-focused Multi-document Summarization.
+The increasing complexity of summarization systems makes it difficult to analyze exactly which modules make a difference in performance.
+We carried out a principled comparison between the two most commonly used schemes for assigning importance to words in the context of query focused multi-document summarization : raw frequency -LRB- word probability -RRB- and log-likelihood ratio.
+We demonstrate that the advantages of log-likelihood ratio come from its known distributional properties which allow for the identification of a set of words that in its entirety defines the aboutness of the input.
+We also find that LLR is more suitable for query-focused summarization since, unlike raw frequency, it is more sensitive to the integration of the information need defined by the user.
+Semi-Automatic Practical Ontology Construction By Using A Thesaurus , Computational Dictionaries , And Large Corpora.
+This paper presents the semi-automatic construction method of a practical ontology by using various resources.
+In order to acquire a reasonably practical ontology in a limited time and with less manpower, we extend the Kadokawa thesaurus by inserting additional semantic relations into its hierarchy, which are classified as case relations and other semantic relations.
+The former can be obtained by converting valency information and case frames from previously-built computational dictionaries used in machine translation.
+The latter can be acquired from concept co-occurrence information, which is extracted automatically from large corpora.
+The ontology stores rich semantic constraints among 1,110 concepts, and enables a natural language processing system to resolve semantic ambiguities by making inferences with the concept network of the ontology.
+In our practical machine translation system, our ontology-based word sense disambiguation method achieved an 8.7 % improvement over methods which do not use an ontology for Korean translation.
+Machine Translation Based on Constraint-Based Synchronous Grammar.
+This paper proposes a variation of synchronous grammar based on the formalism of context-free grammar by generalizing the first component of productions that models the source text, named Constraint-based Synchronous Grammar -LRB- CSG -RRB-.
+Unlike other synchronous grammars, CSG allows multiple target productions to be associated to a single source production rule, which can be used to guide a parser to infer different possible translational equivalences for a recognized input string according to the feature constraints of symbols in the pattern.
+Furthermore, CSG is augmented with independent rewriting that allows expressing discontinuous constituents in the inference rules.
+It turns out that such grammar is more expressive to model the translational equivalences of parallel texts for machine translation, and in this paper, we propose the use of CSG as a basis for building a machine translation -LRB- MT -RRB- system for Portuguese to Chinese translation.
+A Procedure for Multi-Class Discrimination and some Linguistic Applications.
+The paper describes a novel computational tool for multiple concept learning.
+Unlike previous approaches, whose major goal is prediction on unseen instances rather than the legibility of the output, our MPD -LRB- Maximally Parsimonious Discrimination -RRB- program emphasizes the conciseness and intelligibility of the resultant class descriptions, using three intuitive simplicity criteria to this end.
+We illustrate MPD with applications in componential analysis -LRB- in lexicology and phonology -RRB-, language typology, and speech pathology.
+Incorporating Temporal and Semantic Information with Eye Gaze for Automatic Word Acquisition in Multimodal Conversational Systems.
+One major bottleneck in conversational systems is their incapability in interpreting unexpected user language inputs such as out-ofvocabulary words.
+To overcome this problem, conversational systems must be able to learn new words automatically during human machine conversation.
+Motivated by psycholinguistic findings on eye gaze and human language processing, we are developing techniques to incorporate human eye gaze for automatic word acquisition in multimodal conversational systems.
+This paper investigates the use of temporal alignment between speech and eye gaze and the use of domain knowledge in word acquisition.
+Our experiment results indicate that eye gaze provides a potential channel for automatically acquiring new words.
+The use of extra temporal and domain knowledge can significantly improve acquisition performance.
+Improvements in Analogical Learning : Application to Translating Multi-Terms of the Medical Domain.
+Handling terminology is an important matter in a translation workflow.
+However, current Machine Translation -LRB- MT -RRB- systems do not yet propose anything proactive upon tools which assist in managing terminological databases.
+In this work, we investigate several enhancements to analogical learning and test our implementation on translating medical terms.
+We show that the analogical engine works equally well when translating from and into a morphologically rich language, or when dealing with language pairs written in different scripts.
+Combining it with a phrasebased statistical engine leads to significant improvements.
+Automatically Extracting Nominal Mentions Of Events With A Bootstrapped Probabilistic Classifier.
+Most approaches to event extraction focus on mentions anchored in verbs.
+However, many mentions of events surface as noun phrases.
+Detecting them can increase the recall of event extraction and provide the foundation for detecting relations between events.
+This paper describes a weaklysupervised method for detecting nominal event mentions that combines techniques from word sense disambiguation -LRB- WSD -RRB- andlexicalacquisitiontocreateaclassifier thatlabelsnounphrasesasdenotingevents or non-events.
+The classifier uses bootstrapped probabilistic generative models of the contexts of events and non-events.
+Thecontextsarethelexically-anchoredsemantic dependency relations that the NPs appear in.
+Our method dramatically improves with bootstrapping, and comfortably outperforms lexical lookup methods whicharebasedonverymuchlargerhandcrafted resources.
+Using The Web As A Bilingual Dictionary.
+We present a system for extracting an English translation of a given Japanese technical term by collecting and scoring translation candidates from the web.
+We first show that there are a lot of partially bilingual documents in the web that could be useful for term translation, discovered by using a commercial technical term dictionary and an Internet search engine.
+We then present an algorithm for obtaining translation candidates based on the distance of Japanese and English terms in web documents, and report the results of a preliminary experiment.
+Weighted Deductive Parsing And Knuth 's Algorithm.
+We discuss weighted deductive parsing and consider the problem of finding the derivation with the lowest weight.
+We show that Knuth 's generalization of Dijkstra 's algorithm for the shortestpath problem offers a general method to solve this problem.
+Our approach is modular in the sense that Knuth 's algorithm is formulated independently from the weighted deduction system.
+Japanese Morphological Analyzer using Word Co-occurrence - JTAG.
+We developed a Japanese morphological analyzer that uses the co-occurrence of words to select the correct sequence of words in an unsegmented Japanese sentence.
+The co-occurrence information can be obtained from cases where the system incorrectly analyzes sentences.
+As the amount of information increases, the accuracy of the system increases with a small risk of degradation.
+Experimental results show that the proposed system assigns the correct phonological representations to unsegmented Japanese sentences more precisely than do other popular systems.
+Using Language Modeling to Select Useful Annotation Data.
+An annotation project typically has an abundant supply of unlabeled data that can be drawn from some corpus, but because the labeling process is expensive, it is helpful to pre-screen the pool of the candidate instances based on some criterion of future usefulness.
+In many cases, that criterion is to improve the presence of the rare classes in the data to be annotated.
+We propose a novel method for solving this problem and show that it compares favorably to a random sampling baseline and a clustering algorithm.
+Named Entity Recognition for South Asian Languages.
+Much work has already been done on building named entity recognition systems.
+However most of this work has been concentrated on English and other European languages.
+Hence, building a named entity recognition -LRB- NER -RRB- system for South Asian Languages -LRB- SAL -RRB- is still an open problem because they exhibit characteristics different from English.
+This paper builds a named entity recognizer which also identifies nested name entities for the Hindi language using machine learning algorithm, trained on an annotated corpus.
+However, the algorithm is designed in such a manner that it can easily be ported to other South Asian Languages provided the necessary NLP tools like POS tagger and chunker are available for that language.
+I compare results of Hindi data with English data of CONLL shared task of 2003.
+Dependencies Vs.
+Constituents For Tree-Based Alignment.
+Given a parallel parsed corpus, statistical treeto-tree alignment attempts to match nodes in the syntactic trees for a given sentence in two languages.
+We train a probabilistic tree transduction model on a large automatically parsed Chinese-English corpus, and evaluate results against human-annotated word level alignments.
+We find that a constituent-based model performs better than a similar probability model trained on the same trees converted to a dependency representation.
+Focus To Emphasize Tone Structures For Prosodic Analysis In Spoken Language Generation.
+We analyze the concept of focus in speech and the relationship between focus and speech acts for prosodic generation.
+We determinehowthespeaker 's utterancesare influenced by speaker 's intention.
+The relationship between speech acts and focus information is used to define which parts of the sentence serve as the focus parts.
+We propose the Focus to Emphasize Tones -LRB- FET -RRB- structure to analyze the focus components.
+We also design the FET grammar to analyze the intonation patterns and produce tone marks as a result of our analysis.
+We present a proof-of-the-concept working example to validate our proposal.
+More comprehensive evaluations are part of our current work.
+A Punjabi Grammar Checker.
+This article provides description about the grammar checking software developed for detecting the grammatical errors in Punjabi texts and providing suggestions wherever appropriate to rectify those errors.
+This system utilizes a full-form lexicon for morphology analysis and rule-based systems for part of speech tagging and phrase chunking.
+The system supported by a set of carefully devised error detection rules can detect and suggest rectifications for a number of grammatical errors, resulting from lack of agreement, order of words in various phrases etc., in literary style Punjabi texts.
+Distributed Word Clustering for Large Scale Class-Based Language Modeling in Machine Translation.
+In statistical language modeling, one technique to reduce the problematic effects of data sparsity is to partition the vocabulary into equivalence classes.
+In this paper we investigate the effects of applying such a technique to higherorder n-gram models trained on large corpora.
+We introduce a modification of the exchange clustering algorithm with improved efficiency for certain partially class-based models and a distributed version of this algorithm to efficiently obtain automatic word classifications for large vocabularies -LRB- -RRB- 1 million words -RRB- using such large training corpora -LRB- -RRB- 30 billion tokens -RRB-.
+The resulting clusterings are then used in training partially class-based language models.
+We show that combining them with wordbased n-gram models in the log-linear model of a state-of-the-art statistical machine translation system leads to improvements in translation quality as indicated by the BLEU score.
+Unification-Based Multimodal Integration.
+Recent empirical research has shown conclusive advantages of multimodal interaction over speech-only interaction for mapbased tasks.
+This paper describes a multimodal language processing architecture which supports interfaces allowing simultaneous input from speech and gesture recognition.
+Integration of spoken and gestural input is driven by unification of typed feature structures representing the semantic contributions of the different modes.
+This integration method allows the component modalities to mutually compensate for each others ' errors.
+It is implemented in QuickSet, a multimodal -LRB- pen\/voice -RRB- system that enables users to set up and control distributed interactive simulations.
+Extracting Comparative Sentences from Korean Text Documents Using Comparative Lexical Patterns and Machine Learning Techniques.
+This paper proposes how to automatically identify Korean comparative sentences from text documents.
+This paper first investigates many comparative sentences referring to previous studies and then defines a set of comparative keywords from them.
+A sentence which contains one or more elements of the keyword set is called a comparative-sentence candidate.
+Finally, we use machine learning techniques to eliminate non-comparative sentences from the candidates.
+As a result, we achieved significant performance, an F1-score of 88.54 %, in our experiments using various web documents.
+An Empirical Study on Language Model Adaptation Using a Metric of Domain Similarity.
+This paper presents an empirical study on four techniques of language model adaptation, including a maximum a posteriori -LRB- MAP -RRB- method and three discriminative training models, in the application of Japanese Kana-Kanji conversion.
+We compare the performance of these methods from various angles by adapting the baseline model to four adaptation domains.
+In particular, we attempt to interpret the results given in terms of the character error rate -LRB- CER -RRB- by correlating them with the characteristics of the adaptation domain measured using the information-theoretic notion of cross entropy.
+We show that such a metric correlates well with the CER performance of the adaptation methods, and also show that the discriminative methods are not only superior to a MAP-based method in terms of achieving larger CER reduction, but are also more robust against the similarity of background and adaptation domains.
+Modelling User Satisfaction And Student Learning In A Spoken Dialogue Tutoring System With Generic, Tutoring, And User Affect Parameters.
+We investigate using the PARADISE framework to develop predictive models of system performance in our spoken dialogue tutoring system.
+We represent performance with two metrics : user satisfaction and student learning.
+We train and test predictive models of these metrics in our tutoring system corpora.
+We predict user satisfaction with 2 parameter types : 1 -RRB- system-generic, and 2 -RRB- tutoringspeci c. To predict student learning, we also use a third type : 3 -RRB- user affect.
+Alhough generic parameters are useful predictors of user satisfaction in other PARADISE applications, overall our parameters produce less useful user satisfaction models in our system.
+However, generic and tutoring-speci c parameters do produce useful models of student learning in our system.
+User affect parameters can increase the usefulness of these models.
+The Benefit Of Stochastic PP Attachment To A Rule-Based Parser.
+To study PP attachment disambiguation as a benchmark for empirical methods in natural language processing it has often been reduced to a binary decision problem -LRB- between verb or noun attachment -RRB- in a particular syntactic configuration.
+A parser, however, must solve the more general task of deciding between more than two alternatives in many different contexts.
+We combine the attachment predictions made by a simple model of lexical attraction with a full-fledged parser of German to determine the actual benefit of the subtask to parsing.
+We show that the combination of data-driven and rule-based components can reduce the number of all parsing errors by 14 % and raise the attachment accuracy for dependency parsing of German to an unprecedented 92 %.
+Language and Translation Model Adaptation using Comparable Corpora.
+Traditionally, statistical machine translation systems have relied on parallel bi-lingual data to train a translation model.
+While bi-lingual parallel data are expensive to generate, monolingual data are relatively common.
+Yet monolingual data have been under-utilized, having been used primarily for training a language model in the target language.
+This paper describes a novel method for utilizing monolingual target data to improve the performance of a statistical machine translation system on news stories.
+The method exploits the existence of comparable text -- multiple texts in the target language that discuss the same or similar stories as found in the source language document.
+For every source document that is to be translated, a large monolingual data set in the target language is searched for documents that might be comparable to the source documents.
+These documents are then used to adapt the MT system to increase the probability of generating texts that resemble the comparable document.
+Experimental results obtained by adapting both the language and translation models show substantial gains over the baseline system.
+Extracting Terminologically Relevant Collocations in the Translation of Chinese Monograph.
+This paper suggests a methodology which is aimed to extract the terminologically relevant collocations for translation purposes.
+Our basic idea is to use a hybrid method which combines the statistical method and linguistic rules.
+The extraction system used in our work operated at three steps : -LRB- 1 -RRB- Tokenization and POS tagging of the corpus ; -LRB- 2 -RRB- Extraction of multi-word units using statistical measure ; -LRB- 3 -RRB- Linguistic filtering to make use of syntactic patterns and stop-word list.
+As a result, hybrid method using linguistic filters proved to be a suitable method for selecting terminological collocations, it has considerably improved the precision of the extraction which is much higher than that of purely statistical method.
+In our test, hybrid method combining `` Log-likelihood ratio '' and `` linguistic rules '' had the best performance in the extraction.
+We believe that terminological collocations and phrases extracted in this way, could be used effectively either to supplement existing terminological collections or to be used in addition to traditional reference works.
+On The Equivalence Of Weighted Finite-State Transducers.
+Although they can be topologically different, two distinct transducers may actually recognize the same rational relation.
+Being able to test the equivalence of transducers allows to implement such operations as incremental minimization and iterative composition.
+This paper presents an algorithm for testing the equivalence of deterministic weighted finite-state transducers, and outlines an implementation of its applications in a prototype weighted finite-state calculus tool.
+A Non-Projective Dependency Parser.
+We describe a practical parser for unrestricted dependencies.
+The parser creates links between words and names the links according to their syntactic functions.
+We first describe the older Constraint Grammar parser where many of the ideas come from.
+Then we proceed to describe the central ideas of our new parser.
+Finally, the parser is evaluated.
+Common Topics And Coherent Situations : Interpreting Ellipsis In The Context Of Discourse Inference.
+It is claimed that a variety of facts concerning ellipsis, event reference, and interclausal coherence can be explained by two features of the linguistic form in question : -LRB- 1 -RRB- whether the form leaves behind an empty constituent in the syntax, and -LRB- 2 -RRB- whether the form is anaphoric in the semantics.
+It is proposed that these features interact with one of two types of discourse inference, namely Common Topic inference and Coherent Situation inference.
+The differing ways in which these types of inference utilize syntactic and semantic representations predicts phenomena for which it is otherwise difficult to account.
+Normalizing SMS : are Two Metaphors Better than One ?
+Electronic written texts used in computermediated interactions -LRB- e-mails, blogs, chats, etc -RRB- present major deviations from the norm of the language.
+This paper presents an comparative study of systems aiming at normalizing the orthography of French SMS messages : after discussing the linguistic peculiarities of these messages, and possible approaches to their automatic normalization, we present, evaluate and contrast two systems, one drawing inspiration from the Machine Translation task ; the other using techniques that are commonly used in automatic speech recognition devices.
+Combining both approaches, our best normalization system achieves about 11 % Word Error Rate on a test set of about 3000 unseen messages.
+Improving Web Search Relevance with Semantic Features.
+Most existing information retrieval -LRB- IR -RRB- systems do not take much advantage of natural language processing -LRB- NLP -RRB- techniques due to the complexity and limited observed effectiveness of applying NLP to IR.
+In this paper, we demonstrate that substantial gains can be obtained over a strong baseline using NLP techniques, if properly handled.
+We propose a framework for deriving semantic text matching features from named entities identified in Web queries ; we then utilize these features in a supervised machine-learned ranking approach, applying a set of emerging machine learning techniques.
+Our approach is especially useful for queries that contain multiple types of concepts.
+Comparing to a major commercial Web search engine, we observe a substantial 4 % DCG5 gain over the affected queries.
+Coreference-inspired Coherence Modeling.
+Research on coreference resolution and summarization has modeled the way entities are realized as concrete phrases in discourse.
+In particular there exist models of the noun phrase syntax used for discourse-new versus discourse-old referents, and models describing the likely distance between a pronoun and its antecedent.
+However, models of discourse coherence, as applied to information ordering tasks, have ignored these kinds of information.
+We apply a discourse-new classifier and pronoun coreference algorithm to the information ordering task, and show significant improvements in performance over the entity grid, a popular model of local coherence.
+Grammatical Framework Web Service.
+We present a web service for natural language parsing , prediction , generation , and translation using grammars in Portable Grammar Format -LRB- PGF -RRB-, the target format of the Grammatical Framework -LRB- GF -RRB- grammar compiler.
+The web service implementation is open source, works with any PGF grammar, and with any web server that supports FastCGI.
+The service exposes a simple interface which makes it possible to use it for interactive natural language web applications.
+We describe the functionality and interface of the web service, and demonstrate several applications built on top of it.
+Substring-Based Transliteration.
+Transliteration is the task of converting a word from one alphabetic script to another.
+We present a novel, substring-based approach to transliteration, inspired by phrasebased models of machine translation.
+We investigate two implementations of substringbased transliteration : a dynamic programming algorithm, and a finite-state transducer.
+We show that our substring-based transducer not only outperforms a state-of-the-art letterbased approach by a significant margin, but is also orders of magnitude faster.
+KU : Word Sense Disambiguation by Substitution.
+Data sparsity is one of the main factors that make word sense disambiguation -LRB- WSD -RRB- difficult.
+To overcome this problem we need to find effective ways to use resources other than sense labeled data.
+In this paper I describe a WSD system that uses a statistical language model based on a large unannotated corpus.
+The model is used to evaluate the likelihood of various substitutes for a word in a given context.
+These likelihoods are then used to determine the best sense for the word in novel contexts.
+The resulting system participated in three tasks in the SemEval 2007 workshop.
+The WSD of prepositions task proved to be challenging for the system, possibly illustrating some of its limitations : e.g.
+not all words have good substitutes.
+The system achieved promising results for the English lexical sample and English lexical substitution tasks.
+Adaptive String Similarity Metrics For Biomedical Reference Resolution.
+In this paper we present the evaluation of a set of string similarity metrics used to resolve the mapping from strings to concepts in the UMLS MetaThesaurus.
+String similarity is conceived as a single component in a full Reference Resolution System that would resolve such a mapping.
+Given this qualification, we obtain positive results achieving 73.6 F-measure -LRB- 76.1 precision and 71.4 recall -RRB- for the task of assigning the correct UMLS concept to a given string.
+Our results demonstrate that adaptive string similarity methods based on Conditional Random Fields outperform standard metrics in this domain.
+Language Independent Text Correction using Finite State Automata.
+Many natural language applications, like machine translation and information extraction, are required to operate on text with spelling errors.
+Those spelling mistakes have to be corrected automatically to avoid deteriorating the performance of such applications.
+In this work, we introduce a novel approach for automatic correction of spelling mistakes by deploying finite state automata to propose candidates corrections withinaspecifiededitdistancefromthemisspelled word.
+After choosing candidate corrections, a language model is used to assign scores the candidate corrections and choose best correction in the given context.
+The proposed approach is language independent and requires only a dictionary and text data for building a language model.
+The approach have been tested on both Arabic and English text and achieved accuracy of 89 %.
+Synonym Extraction Using A Semantic Distance On A Dictionary.
+Synonyms extraction is a difficult task to achieve and evaluate.
+Some studies have tried to exploit general dictionaries for that purpose, seeing them as graphs where words are related by the definition they appear in, in a complex network of an arguably semantic nature.
+The advantage of using a general dictionary lies in the coverage, and the availability of such resources, in general and also in specialised domains.
+We present here a method exploiting such a graph structure to compute a distance between words.
+This distance is used to isolate candidate synonyms for a given word.
+We present an evaluation of the relevance of the candidates on a sample of the lexicon.
+Knowledge-Free Induction Of Morphology Using Latent Semantic Analysis.
+Morphology induction is a subproblem of important tasks like automatic learning of machine-readable dictionaries and grammar induction.
+Previous morphology induction approaches have relied solely on statistics of hypothesized stems and affixes to choose which affixes to consider legitimate.
+Relying on stemand-affix statistics rather than semantic knowledge leads to a number of problems, such as the inappropriate use of valid affixes -LRB- `` ally '' stemming to `` all '' -RRB-.
+We introduce a semantic-based algorithm for learning morphology which only proposes affixes when the stem and stem-plusaffix are sufficiently similar semantically.
+We implement our approach using Latent Semantic Analysis and show that our semantics-only approach provides morphology induction results that rival a current state-of-the-art system.
+The Derivation Of A Grammatically Indexed Lexicon From The Longman Dictionary Of Contemporary English.
+We describe a methodology and associated software system for the construction of a large lexicon from an existing machine-readable -LRB- published -RRB- dictionary.
+The lexicon serves as a component of an English morphological and syntactic analyesr and contains entries with grammatical definitions compatible with the word and sentence grammar employed by the analyser.
+We describe a software system with two integrated components.
+One of these is capable of extracting syntactically rich, theory-neutral lexical templates from a suitable machine-readabh source.
+The second supports interactive and semi-automatic generation and testing of target lexical entries in order to derive a sizeable, accurate and consistent lexicon from the source dictionary which contains partial -LRB- and occasionally inaccurate -RRB- information.
+Finally, we evaluate the utility of the Longman Dictionary of Contemporary EnglgsA as a suitable source dictionary for the target lexicon.

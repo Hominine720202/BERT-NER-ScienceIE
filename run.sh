@@ -1,1 +1,0 @@
-python exter.py --data_dir data/selfdata/exter/ --bert_model_dir scibert --model_dir experiments/base_model --exterid 0 --logit 0.8
