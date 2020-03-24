@@ -1,279 +1,413 @@
-Recovery of Empty Nodes in Parse Structures.
-In this paper, we describe a new algorithm for recovering WH-trace empty nodes.
-Our approach combines a set of hand-written patterns together with a probabilistic model.
-Because the patterns heavily utilize regular expressions, the pertinent tree structures are covered using a limited number of patterns.
-The probabilistic model is essentially a probabilistic context-free grammar -LRB- PCFG -RRB- approach with the patterns acting as the terminals in production rules.
-We evaluate the algorithm 's performance on gold trees and parser output using three different metrics.
-Our method compares favorably with state-of-the-art algorithms that recover WH-traces.
-Regularized Least-Squares Classification For Word Sense Disambiguation.
-The paper describes RLSC-LIN and RLSCCOMB systems which participated in the Senseval-3 English lexical sample task.
-These systems are based on Regularized Least-Squares Classification -LRB- RLSC -RRB- learning method.
-We describe the reasons of choosing this method, how we applied it to word sense disambiguation, what results we obtained on Senseval1, Senseval-2 and Senseval-3 data and discuss some possible improvements.
-Automatic Indexing of Specialized Documents : Using Generic vs. Domain-Specific Document Representations.
-The shift from paper to electronic documents has caused the curation of information sources in large electronic databases to become more generalized.
-In the biomedical domain, continuing efforts aim at refining indexing tools to assist with the update and maintenance of databases such as MEDLINE ®.
-In this paper, we evaluate two statistical methods of producing MeSH ® indexing recommendations for the genetics literature, including recommendations involving subheadings, which is a novel application for the methods.
-We show that a generic representation of the documents yields both better precision and recall.
-We also find that a domainspecific representation of the documents can contribute to enhancing recall.
-Unsupervised Semantic Role Labeling.
-We present an unsupervised method for labeling the arguments of verbs with their semantic roles.
-Our bootstrapping algorithm makes initial unambiguous role assignments, and then iteratively updates the probability model on which future assignments are based.
-A novel aspect of our approach is the use of verb , slot , and noun class information as the basis for backing off in our probability model.
-We achieve 50 -- 65 % reduction in the error rate over an informed baseline, indicating the potential of our approach for a task that has heretofore relied on large amounts of manually generated training data.
-Towards An Optimal Lexicalization In A Natural-Sounding Portable Natural Language Generator For Dialog Systems.
-In contrast to the latest progress in speech recognition, the state-of-the-art in natural language generation for spoken language dialog systems is lagging behind.
-The core dialog managers are now more sophisticated ; and natural-sounding and flexible output is expected, but not achieved with current simple techniques such as template-based systems.
-Portability of systems across subject domains and languages is another increasingly important requirement in dialog systems.
-This paper presents an outline of LEGEND, a system that is both portable and generates natural-sounding output.
-This goal is achieved through the novel use of existing lexical resources such as FrameNet and WordNet.
-Phrase-Based Backoff Models For Machine Translation Of Highly Inflected Languages.
-We propose a backoff model for phrasebased machine translation that translates unseen word forms in foreign-language text by hierarchical morphological abstractions at the word and the phrase level.
-The model is evaluated on the Europarl corpus for German-English and FinnishEnglish translation and shows improvements over state-of-the-art phrase-based models.
-Growing Semantic Grammars.
-A critical path in the development of natural language understanding -LRB- NLU -RRB- modules lies in the difficulty of defining a mapping from words to semantics : Usually it takes in the order of years of highly-skilled labor to develop a semantic mapping, e.g., in the form of a semantic grammar, that is comprehensive enough for a given domain.
-Yet, due to the very nature of human language, such mappings invariably fail to achieve full coverage on unseen data.
-Acknowledging the impossibility of stating a priori all the surface forms by which a concept can be expressed, we present GsG : an empathic computer system for the rapid deployment of NLU front-ends and their dynamic customization by non-expert end-users.
-Given a new domain for which an NLU front-end is to be developed, two stages are involved.
-In the authoring stage, GSQ aids the developer in the construction of a simple domain model and a kernel analysis grammar.
-Then, in the run-time stage, GSG provides the enduser with an interactive environment in which the kernel grammar is dynamically extended.
-Three learning methods are employed in the acquisition of semantic mappings from unseen data : -LRB- i -RRB- parser predictions, -LRB- ii -RRB- hidden understanding model, and -LRB- iii -RRB- end-user paraphrases.
-A baseline version of GsG has been implemented and prellminary experiments show promising results.
-COOPML : Towards Annotating Cooperative Discourse.
-In this paper, we present a preliminary version of COOPML, a language designed for annotating cooperative discourse.
-We investigate the different linguistic marks that identify and characterize the different forms of cooperativity found in written texts from FAQs, Forums and emails.
-Statistical Phrase-Based Models For Interactive Computer-Assisted Translation.
-Obtaining high-quality machine translations is still a long way off.
-A postediting phase is required to improve the output of a machine translation system.
-An alternative is the so called computerassisted translation.
-In this framework, a human translator interacts with the system in order to obtain high-quality translations.
-A statistical phrase-based approach to computer-assisted translation is described in this article.
-A new decoder algorithm for interactive search is also presented, that combines monotone and nonmonotone search.
-The system has been assessed in the TransType-2 project for the translation of several printer manuals, from -LRB- to -RRB- English to -LRB- from -RRB- Spanish, German and French.
-Multi-View Co-Training of Transliteration Model.
-This paper discusses a new approach to training of transliteration model from unlabeled data for transliteration extraction.
-We start with an inquiry into the formulation of transliteration model by considering different transliteration strategies as a multi-view problem, where each view exploits a natural division of transliteration features, such as phonemebased, grapheme-based or hybrid features.
-Then we introduce a multi-view Cotraining algorithm, which leverages compatible and partially uncorrelated information across different views to effectively boost the model from unlabeled data.
-Applying this algorithm to transliteration extraction, the results show that it not only circumvents the need of data labeling, but also achieves performance close to that of supervised learning, where manual labeling is required for all training samples.
-Relative Compositionality of Multi-word Expressions : A Study of Verb-Noun -LRB- V-N -RRB- Collocations.
-Recognition of Multi-word Expressions -LRB- MWEs -RRB- and their relative compositionality are crucial to Natural Language Processing.
-Various statistical techniques have been proposed to recognize MWEs.
-In this paper, we integrate all the existing statistical features and investigate a range of classifiers for their suitability for recognizing the non-compositional Verb-Noun -LRB- V-N -RRB- collocations.
-In the task of ranking the V-N collocations based on their relative compositionality, we show that the correlation between the ranks computed by the classifier and human ranking is significantly better than the correlation between ranking of individual features and human ranking.
-We also show that the properties ` Distributed frequency of object ' -LRB- as defined in -LRB- 27 -RRB- -RRB- and ` Nearest Mutual Information ' -LRB- as adapted from -LRB- 18 -RRB- -RRB- contribute greatly to the recognition of the non-compositional MWEs of the V-N type and to the ranking of the V-N collocations based on their relative compositionality.
-Using A Hybrid System Of Corpus - And Knowledge-Based Techniques To Automate The Induction Of A Lexical Sublanguage Grammar.
-Porting a Natural Language Processing -LRB- NLP -RRB- system to a new donmin renmins one of the bottlenecks in syntactic parsing, because of the amount of effort required to fix gaps in the lexicon, and to attune the existing grammar to the idiosyncracics of the new sublanguage.
-This paper shows how thc process of fitting a lexicalizcd grammar to a domain can be automated to a great extent by using a hybrid system that combines traditimml knowledgebased techniques with a corpus-based approach.
-Bootstrapping Spoken Dialog Systems With Data Reuse.
-Building natural language spoken dialog systems requires large amounts of human transcribed and labeled speech utterances to reach useful operational service performances.
-Furthermore, the design of such complex systems consists of several manual steps.
-The User Experience -LRB- UE -RRB- expert analyzes and de nes by hand the system core functionalities : the system semantic scope -LRB- call-types -RRB- and the dialog manager strategy which will drive the human-machine interaction.
-This approach is extensive and error prone since it involves several non-trivial design decisions that can only be evaluated after the actual system deployment.
-Moreover, scalability is compromised by time, costs and the high level of UE know-how needed to reach a consistent design.
-We propose a novel approach for bootstrapping spoken dialog systems based on reuse of existing transcribed and labeled data, common reusable dialog templates and patterns, generic language and understanding models, and a consistent design process.
-We demonstrate that our approach reduces design and development time while providing an effective system without any application speci c data.
-Shared Preferences.
-This paper attempts to develop a theory of heuristics or preferences that can be shared between understanding and generation systems.
-We first develop a formal analysis of preferences and consider the relation between their uses in generation and understanding.
-We then present a bidirectional algorithm for applying them and examine typical heuristics for lexical choice, scope and anaphora in :, more detail.
-Exploiting Headword Dependency And Predictive Clustering For Language Modeling.
-This paper presents several practical ways of incorporating linguistic structure into language models.
-A headword detector is first applied to detect the headword of each phrase in a sentence.
-A permuted headword trigram model -LRB- PHTM -RRB- is then generated from the annotated corpus.
-Finally, PHTM is extended to a cluster PHTM -LRB- C-PHTM -RRB- by defining clusters for similar words in the corpus.
-We evaluated the proposed models on the realistic application of Japanese Kana-Kanji conversion.
-Experiments show that C-PHTM achieves 15 % error rate reduction over the word trigram model.
-This demonstrates that the use of simple methods such as the headword trigram and predictive clustering can effectively capture long distance word dependency, and substantially outperform a word trigram model.
-Automatic Slide Generation Based on Discourse Structure Analysis.
-In this paper, we describe a method of automatically generating summary slides from a text.
-The slides are generated by itemizing topic\/non-topic parts that are extracted from the text based on syntactic\/case analysis.
-The indentations of the items are controlled according to the discourse structure, which is detected by cue phrases, identi cation of word chain and similarity between two sentences.
-Our experiments demonstrates generated slides are far easier to read in comparison with original texts.
-Spelling-Checking For Highly Inflective Languages.
-Spelling-checkers have become an integral part of most text processing software.
-From different reasons among which the speed of processing prevails they are usually based on dictionaries of word forms instead of words.
-This approach is sufficient for languages with little inflection such as English, but fails for highly inflective languages such as Czech, Russian, Slovak or other Slavonic languages.
-We have developed a special method for describing inflection for the purpose of building spelling-checkers for such languages.
-The speed of the resulting program lies somewhere in the middle of the scale of existing spelling-checkers for English and the main dictionary fits into the standard 360K floppy, whereas the number of recognized word forms exceeds 6 million -LRB- for Czech -RRB-.
-Further, a special method has been developed for easy word classification.
-Alternative Approaches For Generating Bodies Of Grammar Rules.
-We compare two approaches for describing and generating bodies of rules used for natural language parsing.
-In today 's parsers rule bodies do not exist a priori but are generated on the fly, usually with methods based on n-grams, which are one particular way of inducing probabilistic regular languages.
-We compare two approaches for inducing such languages.
-One is based on n-grams, the other on minimization of the Kullback-Leibler divergence.
-The inferred regular languages are used for generating bodies of rules inside a parsing procedure.
-We compare the two approaches along two dimensions : the quality of the probabilistic regular language they produce, and the performance of the parser they were used to build.
-The second approach outperforms the first one along both dimensions.
-Using Machine Translation Evaluation Techniques to Determine Sentence-level Semantic Equivalence.
-The task of machine translation -LRB- MT -RRB- evaluation is closely related to the task of sentence-level semantic equivalence classification.
-This paper investigates the utility of applying standard MT evaluation methods -LRB- BLEU, NIST, WER and PER -RRB- to building classifiers to predict semantic equivalence and entailment.
-We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence.
-Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment.
-Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments.
-Parsing Word-Aligned Parallel Corpora In A Grammar Induction Context.
-We present an Earley-style dynamic programming algorithm for parsing sentence pairs from a parallel corpus simultaneously, building up two phrase structure trees and a correspondence mapping between the nodes.
-The intended use of the algorithm is in bootstrapping grammars for less studied languages by using implicit grammatical information in parallel corpora.
-Therefore, we presuppose a given -LRB- statistical -RRB- word alignment underlying in the synchronous parsing task ; this leads to a significant reduction of the parsing complexity.
-The theoretical complexity results are corroborated by a quantitative evaluation in which we ran an implementation of the algorithm on a suite of test sentences from the Europarl parallel corpus.
-REFTEX - A Context-Based Translation Aid.
-The system presented in this paper produces bilingual passages of text from an original -LRB- source -RRB- text and one -LRB- or more -RRB- of its translated versions.
-The source text passage includes words or word compounds which a translator wants to retrieve for the current translating of another text.
-The target text passage is the equivalent version of the source text passage.
-On the basis of a comparison of the contexts of these words in the concorded passage and his own text, the translator has to decide on the utility of the translation proposed in the target text passage.
-The program might become a component of translator 's work bench.
-Supervised Grammar Induction Using Training Data With Limited Constituent Information.
-Corpus-based grammar induction generally relies on hand-parsed training data to learn the structure of the language.
-Unfortunately, the cost of building large annotated corpora is prohibitively expensive.
-This work aims to improve the induction strategy when there are few labels in the training data.
-We show that the most informative linguistic constituents are the higher nodes in the parse trees, typically denoting complex noun phrases and sentential clauses.
-They account for only 20 % of all constituents.
-For inducing grammars from sparsely labeled training data -LRB- e.g., only higher-level constituent labels -RRB-, we propose an adaptation strategy, which produces grammars that parse almost as well as grammars induced from fully labeled corpora.
-Our results suggest that for a partial parser to replace human annotators, it must be able to automatically extract higher-level constituents rather than base noun phrases.
-Active Learning for Word Sense Disambiguation with Methods for Addressing the Class Imbalance Problem.
-In this paper, we analyze the effect of resampling techniques, including undersampling and over-sampling used in active learning for word sense disambiguation -LRB- WSD -RRB-.
-Experimental results show that under-sampling causes negative effects on active learning, but over-sampling is a relatively good choice.
-To alleviate the withinclass imbalance problem of over-sampling, we propose a bootstrap-based oversampling -LRB- BootOS -RRB- method that works better than ordinary over-sampling in active learning for WSD.
-Finally, we investigate when to stop active learning, and adopt two strategies, max-confidence and min-error, as stopping conditions for active learning.
-According to experimental results, we suggest a prediction solution by considering max-confidence as the upper bound and min-error as the lower bound for stopping conditions.
-Markov Random Field Based English Part-Of-Speech Tagging System.
-Probabilistic models have been widely used for natural language processing.
-Part-of-speech tagging, which assigns the most likely tag to each word in a given sentence, is one.
-of tire problems which can be solved by statisticM approach.
-Many researchers haw ~ tried to solve the problem by hidden Marker model -LRB- HMM -RRB-, which is well known as one of the statistical models.
-But it has many difficulties : integrating heterogeneous information, coping with data sparseness prohlem, and adapting to new environments.
-In this paper, we propose a Markov radom field -LRB- MRF -RRB- model based approach to the tagging problem.
-The MRF provides the base frame to combine various statistical information with maximum entropy -LRB- ME -RRB- method.
-As Gibbs distribution can be used to describe a posteriori probability of tagging, we use it in ma.
-ximum a posteriori -LRB- MAP -RRB- estimation of optimizing process.
-Besides, several tagging models are developed to show the effect of adding information.
-Experimental results show that the performance of the tagger gets improved as we add more statistical information, and that Mt -LCB- F-based tagging model is better than ttMM based tagging model in data sparseness problem.
-Positioning for Conceptual Development using Latent Semantic Analysis.
-With increasing opportunities to learn online, the problem of positioning learners in an educational network of content offers new possibilities for the utilisation of geometry-based natural language processing techniques.
-In this article, the adoption of latent semantic analysis -LRB- LSA -RRB- for guiding learners in their conceptual development is investigated.
-We propose five new algorithmic derivations of LSA and test their validity for positioning in an experiment in order to draw back conclusions on the suitability of machine learning from previously accredited evidence.
-Special attention is thereby directed towards the role of distractors and the calculation of thresholds when using similarities as a proxy for assessing conceptual closeness.
-Results indicate that learning improves positioning.
-Distractors are of low value and seem to be replaceable by generic noise to improve threshold calculation.
-Furthermore, new ways to flexibly calculate thresholds could be identified.
-Reversibility In A Constraint And Type Based Logic Grammar : Application To Secondary Predication.
-In this document, we present a formalism for natural language processing which associates type construction principles to constraint logic programming.
-We show that it provides more uniform, expressive and efficient tools for parsing and generating language.
-Next, we present two abstract machines which enable us to design, in a symmetric way, a parser and a generator from that formalism.
-This abstract machinery is then exemplified by a detailed study of secondary predication within the framework of a principledbased description of language : Government and Binding theory.
-Inducing Search Keys for Name Filtering.
-This paper describes ETK -LRB- Ensemble of Transformation-based Keys -RRB- a new algorithm for inducing search keys for name filtering.
-ETK has the low computational cost and ability to filter by phonetic similarity characteristic of phonetic keys such as Soundex, but is adaptable to alternative similarity models.
-The accuracy of ETK in a preliminary empirical evaluation suggests that it is well-suited for phonetic filtering applications such as recognizing alternative cross-lingual transliterations.
-Machine Translation Based On NLG From XML-DB.
-The purpose of this study is to propose a new method for machine translation.
-Wehave proceeded through with two projects for report generation -LRB- Kittredge and Polguere, 2000 -RRB- : Weather Forecast and Monthly Economic Report to be produced in four languages : English, Japanese, French, and German.
-Their input data is stored in XML-DB.
-We applied a three-stage pipelined architecture -LRB- Reiter and Dale, 2000 -RRB-, and each stage was implemented as XML transformation processes.
-Weregard XML stored data as language-neutral intermediate form and employ the so-called ` sublanguage approach ' -LRB- Somers, 2000 -RRB-.
-The machine translation process is implemented via XMLDB as a kind of interlingua approach instead of the conventional structure transfer approach.
-Capturing Out-Of-Vocabulary Words In Arabic Text.
-The increasing flow of information between languages has led to a rise in the frequency of non-native or loan words, where terms of one language appear transliterated in another.
-Dealing with such out of vocabulary words is essential for successful cross-lingual information retrieval.
-For example, techniques such as stemming should not be applied indiscriminately to all words in a collection, and so before any stemming, foreign words need to be identified.
-In this paper, we investigate three approaches for the identification of foreign words in Arabic text : lexicons , language patterns , and n-grams and present that results show that lexicon-based approaches outperform the other techniques.
-Advanced Human-Computer Interface And Voice Processing Applications In Space.
-Much interest already exists in the electronics research community for developing and integrating speech technology to a variety of applications, ranging from voice-activated systems to automatic telephone transactions.
-This interest is particularly true in the field of aerospace where the training and operational demands on the crew have significantly increased with the proliferation of technology.
-Indeed, with advances in vehicule and robot automation, the role of the human operator has evolved from that of pilot\/driver and manual controller to supervisor and decision maker.
-Lately, some effort has been expended to implement alternative modes of system control, but automatic speech recognition -LRB- ASR -RRB- and human-computer interaction -LRB- HCI -RRB- research have only recently extended to civilian aviation and space applications.
-The purpose of this paper is to present the particularities of operator-computer interaction in the unique conditions found in space.
-The potential for voice control applications inside spacecraft is outlined and methods of integrating spoken-language interfaces onto operational space systems are suggested.
-Word Sense Disambiguation Criteria : A Systematic Study.
-This article describes the results of a systematic indepth study of the criteria used for word sense disambiguation.
-Our study is based on 60 target words : 20 nouns, 20 adjectives and 20 verbs.
-Our results are not always in line with some practices in the field.
-For example, we show that omitting noncontent words decreases performance and that bigrams yield better results than unigrams.
-Application Of Analogical Modelling To Example Based Machine Translation.
-This paper describes a self-modelling , incremental algorithm for learning translation rules from existing bilingual corpora.
-The notions of supracontext and subcontext are extended to encompass bilingual information through simultaneous analogy on both source and target sentences and juxtaposition of corresponding results.
-Analogical modelling is performed during the learning phase and translation patterns are projected in a multi-dimensional analogical network.
-The proposed fi'amework was evaluated on a small training corpus providing promising results.
-Suggestions to improve system performance are
-Outline Of The International Standard Linguistic Annotation Framework.
-This paper describes the outline of a linguistic annotation framework under development by ISO TC37 SC WG1-1.
-This international standard provides an architecture for the creation, annotation, and manipulation of linguistic resources and processing software.
-The goal is to provide maximum flexibility for encoders and annotators, while at the same time enabling interchange and re-use of annotated linguistic resources.
-We describe here the outline of the standard for the purposes of enabling annotators to begin to explore how their schemes may map into the framework.
-Speech to speech machine translation : Biblical chatter from Finnish to English.
-Speech-to-speech machine translation is in some ways the peak of natural language processing, in that it deals directly with our original, oral mode of communication -LRB- as opposed to derived written language -RRB-.
-As such, it presents challenges that are not to be taken lightly.
-Although existing technology covers each of the steps in the process, from speech recognition to synthesis, deriving a model of translation that is effective in the domain of spoken language is an interesting and challenging task.
-If we could teach our algorithms to learn as children acquire language, the result would be useful both for language technology and cognitive science.
-We propose several potential approaches, an implementation of a multi-path model that translates recognized morphemes alongside words,andaweb-interfacetotestourspeech translation tool as trained for Finnish to English.
-We also discuss current approaches to machine translation and the problems they face in adapting simultaneously to morphologically rich languages and to the spoken modality.
-A New Method for Sentiment Classification in Text Retrieval.
-Traditional text categorization is usually a topic-based task, but a subtle demand on information retrieval is to distinguish between positive and negative view on text topic.
-In this paper, a new method is explored to solve this problem.
-Firstly, a batch of Concerned Concepts in the researched domain is predefined.
-Secondly, the special knowledge representing the positive or negative context of these concepts within sentences is built up.
-At last, an evaluating function based on the knowledge is defined for sentiment classification of free text.
-We introduce some linguistic knowledge in these procedures to make our method effective.
-As a result, the new method proves better compared with SVM when experimenting on Chinese texts about a certain topic.
-Machine Learning Methods For Chinese Web Page Categorization.
-This paper reports our evaluation of k Nearest Neighbor -LRB- kNN -RRB-, Support Vector Machines -LRB- SVM -RRB-, and Adaptive Resonance Associative Map -LRB- ARAM -RRB- on Chinese web page classification.
-Benchmark experiments based on a Chinese web corpus showed that their predictive performance were roughly comparable although ARAM and kNN slightly outperformed SVM in small categories.
-In addition, inserting rules into ARAM helped to improve performance, especially for small welldefined categories.
-FLSA : Extending Latent Semantic Analysis With Features For Dialogue Act Classification.
-We discuss Feature Latent Semantic Analysis -LRB- FLSA -RRB-, an extension to Latent Semantic Analysis -LRB- LSA -RRB-.
-LSA is a statistical method that is ordinarily trained on words only ; FLSA adds to LSA the richness of the many other linguistic features that a corpus may be labeled with.
-We applied FLSA to dialogue act classification with excellent results.
-We report results on three corpora : CallHome Spanish, MapTask, and our own corpus of tutoring dialogues.
-Data-Driven Classification Of Linguistic Styles In Spoken Dialogues.
-Language users have individual linguistic styles.
-A spoken dialogue system may benefit from adapting to the linguistic style of a user in input analysis and output generation.
-To investigate the possibility to automatically classify speakers according to their linguistic style three corpora of spoken dialogues were analyzed.
-Several numerical parameters were computed for every speaker.
-These parameters were reduced to linguistically interpretable components by means of a principal component analysis.
-Classes were established from these components by cluster analysis.
-Unseen input was classified by trained neural networks with varying error rates depending on corpus type.
-A first investigation in using special language models for speaker classes was carried out.
-Cluster-Based Query Expansion for Statistical Question Answering.
-Document retrieval is a critical component of question answering -LRB- QA -RRB-, yet little work has been done towards statistical modeling of queries and towards automatic generation of high quality query content for QA.
-This paper introduces a new, cluster-based query expansion method that learns queries known to be successful when applied to similar questions.
-We show that cluster-based expansion improves the retrieval performance of a statistical question answering system when used in addition to existing query expansion methods.
-This paper presents experiments with several feature selection methods used individually and in combination.
-We show that documents retrieved using the cluster-based approach are inherently different than documents retrieved using existing methods and provide a higher data diversity to answers extractors.
-Translating Lexical Semantic Relations : The First Step Towards Multilingual Wordnets.
-Establishing correspondences between wordnets of different languages is essential to both multilingual knowledge processing and for bootstrapping wordnets of low-density languages.
-We claim that such correspondences must be based on lexical semantic relations, rather than top ontology or word translations.
-In particular, we define a translation equivalence relation as a bilingual lexical semantic relation.
-Such relations can then be part of a logical entailment predicting whether source language semantic relations will hold in a target language or not.
-Our claim is tested with a study of 210 Chinese lexical lemmas and their possible semantic relations links bootstrapped from the Princeton WordNet.
-The results show that lexical semantic relation translations are indeed highly precise when they are logically inferable.
-Evaluating Unsupervised Part-of-Speech Tagging for Grammar Induction.
-This paper explores the relationship between various measures of unsupervised part-of-speech tag induction and the performance of both supervised and unsupervised parsing models trained on induced tags.
-We find that no standard tagging metrics correlate well with unsupervised parsing performance, and several metrics grounded in information theory have no strong relationship with even supervised parsing performance.
-Word Sense Disambiguation Using Sense Examples Automatically Acquired From A Second Language.
-We present a novel almost-unsupervised approach to the task of Word Sense Disambiguation -LRB- WSD -RRB-.
-We build sense examples automatically, using large quantities of Chinese text, and English-Chinese and Chinese-English bilingual dictionaries, taking advantage of the observation that mappings between words and meanings are often different in typologically distant languages.
-We train a classifier on the sense examples and test it on a gold standard English WSD dataset.
-The evaluation gives results that exceed previous state-of-the-art results for comparable systems.
-We also demonstrate that a little manual effort can improve the quality of sense examples, as measured by WSD accuracy.
-The performance of the classifier on WSD also improves as the number of training sense examples increases.
-Lexical Discrimination With The Italian Version Of WordNet.
-We present a prototype of the Italian version of WORDNET, a general computational lexical resource.
-Some relevant extensions are discussed to make it usable for parsing : in particular we add verbal selectional restrictions to make lexical discrimination effective.
-Italian WORDNET has been coupled with a parser and a number of experiments have been performed to individuate the methodology with the best trade-off between disambiguation rate and precision.
-Results confirm intuitive hypothesis on the role of selectional restrictions and show evidences for a WORDNET-Iike organization of lexical senses.
-A Japanese Predicate Argument Structure Analysis using Decision Lists.
-This paper describes a new automatic method for Japanese predicate argument structure analysis.
-The method learns relevant features to assign case roles to the argument of the target predicate using the features of the words located closest to the target predicate under various constraints such as dependency types , words , semantic categories , parts of speech , functional words and predicate voices.
-We constructed decision lists in which these featuresweresortedbytheirlearnedweights.
-Using our method, we integrated the tasks of semantic role labeling and zero-pronoun identification, and achieved a 17 % improvement compared with a baseline method in a sentence level performance analysis.
-FastSum : Fast and Accurate Query-based Multi-document Summarization.
-Wepresentafastquery-basedmulti-document summarizer called FastSum based solely on word-frequency features of clusters, documents and topics.
-Summary sentences are ranked by a regression SVM.
-The summarizer does not use any expensive NLP techniques such as parsing, tagging of names or even part of speech information.
-Still, the achieved accuracy is comparable to the best systems presented in recent academic competitions -LRB- i.e., Document Understanding Conference -LRB- DUC -RRB- -RRB-.
-Because of a detailed feature analysis using Least Angle Regression -LRB- LARS -RRB-, FastSum can rely on a minimal set of featuresleading tofastprocessingtimes : 1250 news documents in 60 seconds.
-Lattice-Based Search For Spoken Utterance Retrieval.
-Recent work on spoken document retrieval has suggested that it is adequate to take the singlebest output of ASR, and perform text retrieval on this output.
-This is reasonable enough for the task of retrieving broadcast news stories, where word error rates are relatively low, and the stories are long enough to contain much redundancy.
-But it is patently not reasonable if one 's task is to retrieve a short snippet of speech in a domain where WER 's can be as high as 50 % ; such would be the situation with teleconference speech, where one 's task is to find if and when a participant uttered a certain phrase.
-In this paper we propose an indexing procedure for spoken utterance retrieval that works on lattices rather than just single-best text.
-We demonstrate that this procedure can improve F scores by over five points compared to singlebest retrieval on tasks with poor WER and low redundancy.
-The representation is flexible so that we can represent both word lattices, as well as phone lattices, the latter being important for improving performance when searching for phrases containing OOV words.
+Based on the theoretical analysis, the value of the measuring resistor, Rm, has no effect on the corrosion process and on the estimated value of noise resistance.
+In order to validate this conclusion, the experiment of Fig.
+9 was performed.
+Specifically, a pair of nominally identical specimens was initially coupled by a 4.7kΩ resistor and their potential with respect to a saturated calomel electrode was recorded by using a NI-USB 6009 analog-to-digital converter.
+The electrochemical noise signal was recorded using in-house developed software, acquiring at 1023Hz segments of 1000 points at each iteration.
+Between iterations, the 1000 values acquired were averaged to obtain a single value of potential, subsequently saved to the file used for later processing.
+The final dataset comprised potential values spaced 1±0.05s in time.
+Under the assumption that the noise present above 1023Hz is negligible compared with the noise present below 0.5Hz, this procedure enables an accurate recording of the potential noise in the frequencies of interest, avoiding aliasing of frequencies between 0.5 and 1023Hz and minimizing the 50Hz interference from the mains supply.
+Historically, the interest in accurate measurement of DNI started decades ago.
+Early studies (e.g., Linke, 1931; Linke and Ulmitz, 1940) identified the difficulty of separating the measurement of DNI from that of the diffuse irradiance in the immediate vicinity of the sun, hereafter referred to as circumsolar irradiance.
+Pastiels (1959) conducted a detailed study of the geometry of pyrheliometers, and how that geometry interacted with circumsolar radiance, using simplified representations of the latter.
+Various communications were then presented at a WMO Task Group meeting held in Belgium in 1966 (WMO, 1967) to improve the accuracy of pyrheliometric measurements, including estimates of the circumsolar enhancement.
+Ångström (1961) and Ångström and Rohde (1966) later contributed to the same topic, followed years later by Major (1973, 1980).
+The whole issue of instrument geometry vs. circumsolar irradiance was complex and confusing at the time because different makes and models of instruments had differing geometries.
+This was considerably simplified after WMO issued guidelines about the recommended geometry of pyrheliometers, which led to a relatively “standard” geometry used in all recent instruments.
+The experimental issues related to the measurement of DNI are discussed in Section 3.2.
+In the current CLSVOF method, the normal vector is calculated directly by discretising the LS gradient using a finite difference scheme.
+By appropriately choosing one of three finite difference schemes (central, forward, or backward differencing), it has been demonstrated that thin liquid ligaments can be well resolved see Xiao (2012).
+Although a high order discretisation scheme (e.g.
+5th order WENO) has been found necessary for LS evolution in pure LS methods to reduce mass error, low order LS discretisation schemes (2nd order is used here) can produce accurate results when the LS equation is solved and constrained as indicated above in a CLSVOF method (see Xiao, 2012), since the VOF method maintains 2nd order accuracy.
+This is a further reason to adopt the CLSVOF method, which has been used for all the following simulations of liquid jet primary breakup.
+The Magnox reactors represent the first generation of gas-cooled reactors in the UK that used carbon dioxide (CO2) as the primary coolant and a honeycomb network of graphite bricks to provide neutron moderation.
+During reactor operation significant amounts of carbon monoxide (CO) was produced from the CO2 coolant.
+This CO in turn can be radiolytically polymerised to form a carbonaceous deposit on free surfaces [12].
+This non-graphitic carbon deposit is significantly more chemically reactive to air than the underlying graphite [12,13].
+During the lifetime of some Magnox reactors, small quantities of methane gas were injected into the coolant gas to inhibit weight loss of the graphite core due to radiolytic oxidation [14].
+Methane (CH4) is a precursor for carbonaceous deposits that form a sacrificial layer protecting the underlying graphite from excessive weight loss [15] and reduction in mechanical strength [16].
+It is assumed nitrogen incorporation during deposit formation is the subsequent production route for the high 14C levels observed.
+There is still some debate about the crystal structure and composition of the fine oxides found in ODS steels and a number of different phases have been both proposed and identified.
+A complete characterisation of the oxide particles, including crystal structure and composition, is needed as different phases and chemical variants of a single structure have been shown to respond differently to high temperatures and irradiation.
+Ribis and de Carlan [6] have studied the coarsening characteristics of Y2O3 and Y2Ti2O7 oxides at high temperatures.
+They show that the increase in particle size is greater for the non-Ti containing phase.
+Similarly, Ratti et al.
+[9], although they do not allude to specific oxide phases, have shown that small Ti additions to an 18%Cr ODS alloy dramatically reduces the coarsening rates of dispersoids when compared to an equivalent alloy without titanium.
+For example, Ribis indicates that coarsening rates may be controlled by interfacial energy between the secondary phase particles and the matrix; he points out that the resistance to coarsening observed in the Y, Ti, O system is probably the result of a very low interface energy and this would differ from one phase to another.
+Whittle et al.
+[10] have shown that pyrochlore and structures closely related to the pyrochlore structure respond in different ways to irradiation.
+They revealed that oxide structure and variations in composition can affect their ability to withstand and recover from irradiation induced damage.
+Complex Langevin (CL) dynamics  [1,2] provides an approach to circumvent the sign problem in numerical simulations of lattice field theories with a complex Boltzmann weight, since it does not rely on importance sampling.
+In recent years a number of stimulating results has been obtained in the context of nonzero chemical potential, in both lower and four-dimensional field theories with a severe sign problem in the thermodynamic limit  [3–8] (for two recent reviews, see e.g.
+Refs.
+[9,10]).
+However, as has been known since shortly after its inception, correct results are not guaranteed  [11–16].
+This calls for an improved understanding, relying on the combination of analytical and numerical insight.
+In the recent past, the important role played by the properties of the real and positive probability distribution in the complexified configuration space, which is effectively sampled during the Langevin process, has been clarified  [17,18].
+An important conclusion was that this distribution should be sufficiently localised in order for CL to yield valid results.
+Importantly, this insight has recently also led to promising results in nonabelian gauge theories, with the implementation of SL(N,C) gauge cooling  [8,10].
+The pipes under pressure in the RCS or connected to RCS are usually made of austenitic or austenitic & ferritic stainless steel.
+Most connections are welded.
+The pipes may be exposed to various degradation phenomena (diverse hazards, mechanical fatigue, thermal fatigue, stress corrosion, etc.).
+Event screening in the databases showed a total of 116 events (33 related to cracks and 83 to leaks).
+Three main causes for failure were identified, namely, fatigue, corrosion and the presence of manufacturing defects.
+Human factor induced defects proved to have little impact – less than 10% of the cases could be attributed to operation errors.
+Fatigue was found being induced by several factors: excessive vibration, pressure shocks and the thermal regime of operating the pipe, as well as by combinations of these factors.
+Corrosion was induced, in most of the cases, by a non-appropriate choice of alloys while not taking into account the chemical parameters of the fluid inside pipes.
+Manufacturing defects mostly dealt with welding related problems and deviation from the design documentation during post-weld heat treatment.
+One of the most important outcomes of the comparative analysis is the fact that in all tested cases the use of FM is associated with a dramatic reduction in computational time when compared with FE, generally being in the order of seconds for FM and in the order of hours for FE.
+Table 1 reports the timings of the simulations for both methods.
+Free expansion is the fastest case, where FM reaches the load-free configuration in just 2 s, while simulations inside the vessels with the diameter of around 30 mm take approximately 30 s. Most of the execution time of the FM deployment algorithm is dedicated to the contact check and calculations of the implications the vessel wall has on the stent structure.
+Interestingly, in both methods, the highest computational time (i.e., curved vessels) is not associated with the most complex geometry (i.e., patient-specific case of aortic dissection).
+Another fact worth mentioning is the relation of the computational time to the diameter of the vessel in both methods.
+While the computational time of FM appeared to be directly related to the diameter of the vessel, no immediate relation was found for the FE simulations.
+Such outcome is probably related to the simplified contact model used by FM, which makes the stent-graft expansion terminate once the nodes come in contact with the vessel wall.
+On the contrary, it is well known that the contact algorithm used in the FE analyses increases the computational cost of the simulations.
+The remainder of our discussion proceeds as follows.
+In Section 2 we briefly describe the problem of cell tracking and introduce our approach to cell tracking, which may be regarded as fitting a mathematical model to experimental image data sets.
+We present the geometric evolution law model we seek to fit, which is a simplification of recently developed models in the literature that show good agreement with experiments [8,10–12,4,13,9].
+We finish Section 2 by reformulating our model into the phase field framework, which appears more suitable for the problem in hand, and we formulate the cell tracking problem as a PDE constrained optimisation problem.
+In Section 3 we propose an algorithm for the resolution of the PDE constrained optimisation problem and we discuss some practical aspects related to the implementation.
+In particular we note that the theoretical and computational framework may be applied directly to multi-cell image data sets and raw image data sets (of sufficient quality) without segmentation.
+In Section 4 we present some numerical examples for the case of 2d single and multi-cell image data sets.
+Finally in Section 5 we present some conclusions of our study and discuss future extensions and applications of the work.
+It is critical to the success of the NPD technique that the MOF complex adsorbs a significant amount of D2 to boost the observed signal.
+This technique therefore has disadvantages when studying the binding interaction within MOFs with low uptakes.
+Furthermore, static crystallographic studies cannot provide insights into the dynamics of the adsorbed gas molecules.
+Thus, it is very challenging to probe experimentally the H2 binding interactions within a porous host system which has very low gas uptake due to the lack of suitable characterisation techniques.
+We report herein the application of the in situ inelastic neutron scattering (INS) technique to permit direct observation of the dynamics of the binding interactions between adsorbed H2 molecules and an aluminium-based porous MOF, NOTT-300, exhibiting moderate porosity, narrow pore window and very low uptake of H2.
+This neutron spectroscopy study reveals that adsorbed H2 molecules do not interact with the organic ligand within the pore channels, and form very weak interactions with [Al(OH)2O4] moieties via a type of through-spacing interaction (Al-O⋯H2).
+Interestingly, the very low H2 adsorption has been successfully characterised as weak binding interactions and, for the first time, we have found that the adsorbed H2 in the pore channel has a liquid type recoil motion at 5K (below its melting point) as a direct result of this weak interaction to the MOF host.
+The related Volta potential (Ψ) is the potential difference between a position infinitely far away from the surface and a position just outside the surface, and is the measureable quantity characterising electrochemical behaviour of a metal [12,17].
+The scanning Kelvin probe force microscopy (SKPFM) technique allows detection of local EWF (if the EWF of the tip is known), or Volta potential differences (ΔΨ) between an atomic force microscopy tip (usually Pt coated) and the metal surface [14,15,19].
+The lateral resolution of SKPFM can be as high as 10’s of nm in ambient air, with a sensitivity up to 10–20meV [19].
+Volta potential is a characteristic property of a metal surface and can be used to understand electrochemical processes [16] .
+It is sensitive to any kind of surface defects, chemical variations, and residual stress [13,17].
+Volta potential differences in microstructure have been used to predict corrosion behaviour [10,15,18,20–22].
+Regions with larger (ΔΨ) indicate increased surface reactivity [11,15,18], and even a correlation between Volta potential differences measured in nominally dry air and their free corrosion potential (Ecorr) pre-determined under immersed conditions has been reported [18].
+An essential part of nuclear reactor analysis is the prediction of the three-dimensional space-time kinetics of neutrons in a relatively large, finite, heterogeneous, three-dimensional reactor core.
+In a majority of safety analyses the prediction of reactor physics responses is performed using neutron diffusion theory applied to three-dimensional systems, with inputs usually derived from deterministic neutron transport solutions of two-dimensional lattice geometries.
+There has been increased activity related to uncertainty and sensitivity in reactor physics calculations, and the Organization for Economic Cooperation and Development – Nuclear Energy Agency (OECD-NEA) has sponsored an ongoing benchmark entitled “Uncertainty Analysis in Modelling” (UAM) related to these efforts.
+The goal of this work is to offer a strategy for computing lattice sensitivities using the DRAGON lattice code and WIMS-D4 multi-group library.
+Results are presented with comparison to those from TSUNAMI, developed by Oak Ridge National Laboratories.
+The sodium trimer has a long history of theoretical and experimental studies.
+A pioneering theoretical paper of Martin and Davidson published in 1978 showed that the obtuse isosceles geometry is lower in energy than the linear conformation [6].
+Several extended PES scans of Na3 and other alkali trimers followed this initial study, employing DFT [7], complete active space SCF [8], or a configuration interaction approach based on valence bond wave functions [9].
+Recently, the applicability of density functional theory (DFT) to JT-distorted systems has also been tested for Na3 [10], and the B-X transition has been revisited as well, applying state-averaged multi-reference configuration interaction with a large active space in order to derive more accurate non-adiabatic coupling terms for an improved interpretation of photoabsorption spectra [11–13].
+The Statistical Associating Fluid Theory (SAFT) is a well-developed perturbation theory used to describe quantitatively the volumetric properties of fluids.
+The reader is referred to several reviews on the topic which describe the various stages of its development and the multiple versions available [50–53].
+The fundamental difference between the versions is in the underlying intermolecular potential employed to describe the unbounded constituent particles.
+Hard spheres, square well fluids, LJ fluids, argon, alkanes have all been employed as reference fluids in the different incarnations of SAFT.
+For the purpose of this work we will center on a particular version of the SAFT EoS, i.e.
+the SAFT-VR Mie recently proposed by Laffitte et al.
+[54] and expanded into a group contribution approach, SAFT-γ, by Papaioannou et al.
+[55].
+This particular version of SAFT provides a closed form EoS that describes the macroscopical properties of the Mie potential [56], also known as the (m,n) potential; a generalized form of the LJ potential (albeit predating it by decades).
+The Mie potential has the form(1)ϕ(r)=Cεσrλr−σrλawhere C is an analytical function of the repulsive and attractive exponents, λa and λr, respectively, σ is a parameter that defines the length scale and is loosely related to the average diameter of a Mie bead; ɛ defines the energy scale and corresponds to the minimum potential energy between two isolated beads; expressed here as a ratio to the Boltzmann constant, kB.
+The Mie function, as written above, deceivingly suggests that four parameters are needed to characterize the behaviour of an isotropic molecule, however the exponents λa and λr are intimately related, and for fluid phase equilibria, one needs not consider them as independent parameters [57].
+Accordingly, we choose herein to fix the attractive exponent to λa=6 which would be expected to be representative of the dispersion scaling of most simple fluids and refer from here on to the repulsive parameter as λ=λr.
+The potential simplifies to(2)ϕ(r)=λλ−6λ66/(λ−6)εσrλ−σr6
+The wind speed and cloud height Markov chains are produced accounting for seasonal variations.
+A Markov chain is used for each variable representing each of the four seasons, capturing the variability at different times of the year, totalling four chains each.
+The okta number Markov chains also consider the effect of season, with the inclusion of impacts from pressure and diurnal variation.
+Eight okta Markov chains are produced that are split by above and below average pressure for each season, and four additional morning okta Markov chains are produced to capture the diurnal variation for okta transitions between 00:00 and 05:00am for each season.
+The intent is to capture the variation in transition probability that occurs as a result of weather changes due to the presence of solar energy.
+5am is considered the cut-off because it is a typical sunrise in the summer for the applied study locations.
+5h represents 5 okta transitions and is considered an appropriate duration for the slight propensity to shift towards an increased okta to be represented, Fig.
+8 demonstrates the diurnal transition differences.
+Fig.
+2 visually demonstrates the mean okta Markov chain for the entire year, whilst the effect of season can be seen in Fig.
+11.
+A fully-coupled numerical framework for two-phase flows with an implicit implementation of surface tension has been introduced in this article.
+This fully-coupled framework has then been used to compare the influence of the surface tension treatment on the time-step restrictions resulting from capillary waves.
+The conducted study demonstrates that restrictions on the numerical time-step resulting from capillary waves are valid and unchanged regardless of the numerical treatment of surface tension.
+Since surface tension is not a function of pressure or velocity, the change in implementation does not affect the matrix coefficients of the primitive variables and, thus, numerical stability is independent of the treatment of surface tension.
+Further analysis shows that the capillary time-step constraint is a requirement imposed by the spatiotemporal sampling of capillary waves, which is independent of the applied numerical methodology.
+A bond failure is thought of as a micro-crack nucleation, specifically as a separation between the adjacent cells in the cellular structure along their common face.
+Initially, the micro-cracks may be dispersed in the model reflecting the random distribution of pore sizes and the low level of interaction due to force redistribution.
+Interaction and coalescence may follow as the population of micro-cracks increases.
+These situations are illustrated in Fig.
+3.
+The structure of the failed surface can be represented with a mathematical graph, where graph nodes represent failed faces and graph edges exist between failed faces with common triple line in the cellular structure, i.e.
+where two micro-cracks formed a continuous larger crack.
+With reference to Fig.
+3, each failed face is a graph node and each pair of neighbouring failed faces is a graph edge.
+The formulation in Table 1 was derived by an empirical approach and led to a non-classical glass matrix.
+Carter et al.
+[3] and Zhang et al.
+[4] took a more systematic approach to such glass-ceramic wasteforms.
+These wasteforms were targeted at Hanford K-basin sludges and the immobilisation of the primary waste stream from production of molybdenum-99 at the Australian Nuclear Science and Technology Organisation site in Sydney respectively.
+In the work of Carter et al.
+and Zhang et al.
+the intended crystalline phase was the closely related titanate pyrochlore, CaUTi2O7.
+The glass matrix was formulated such that the trivalent species in the glass network, boron and aluminium, were charge compensated on a molar basis by sodium.
+The stoichiometric composition of the glass in this wasteform was Na2AlBSi6O16.
+This glass provides a method by which the glass composition can be varied systematically.
+Given that the initial observations inferred an important role played by alumina, it was decided to prepare a suite of zirconolite glass-ceramics in which the glass matrix was defined by Na2Al1+xB1–xSi6O16 to investigate the role played by glass composition in controlling crystalline phase stability.
+The x=1 end member gives the mineral albite, NaAlSi3O8.
+The melting point of albite is 1120°C [5] and the composition cools to a glass at the cooling rates that occur during a HIP cycle.
+From the available phase diagrams, [6] no boron analogue for albite was shown, and the liquidus estimated from the relevant phase diagram is 1100–1200°C.
+No phase diagrams for the quaternary system Na2O–Al2O3–B2O3–SiO2 could be found.
+This work shows how our approach based on the combination of Statistical Mechanics and nonlinear PDEs theory provides us with a novel and powerful tool to tackle phase transitions.
+This method leads to solution of perhaps the most known test-case that exhibits a first order phase transition (semi-heuristically described) such as the van der Waals model.
+In particular we have obtained the first global mean field partition function (Eq.
+(9)), for a system of finite number of particles.
+The partition function is a solution to the Klein–Gordon equation, reproduces the van der Waals isotherms away from the critical region and, in the thermodynamic limit N→∞ automatically encodes the Maxwell equal areas rule.
+The approach hereby presented is of remarkable simplicity, has been successfully applied to spin  [17–19,14,16] and macroscopic thermodynamic systems  [20,15] and can be further extended to include the larger class of models admitting partition functions of the form (4) to be used to extend to the critical region general equations of state of the form (7) including a class virial expansions.
+The aim of this paper is to investigate the influence of the particle shape on interacting particles flowing in a horizontal turbulent channel flow, for particles with a significant Stokes number.
+To achieve this, large eddy simulations (LES) of a horizontal turbulent channel flow laden with five different particle shapes, incorporating the drag, lift and toque model derived in Zastawny et al.
+(2012), are performed.
+The well-documented horizontal channel flow case described in Kussin and Sommerfeld (2002), who study spherical particles, is used as a reference case.
+The measurements in their work was done with phase Doppler anemometry (PDA), to measure the fluid and particle velocity simultaneously.
+The numerical framework applied in this paper has been previously validated for spherical particles in Mallouppas and van Wachem (2013).
+In that paper, it is shown that the comprehensive discrete element model (DEM) is more accurate in determining the behaviour of the particles in this horizontal gas–solid channel flow that the hard-sphere model.
+Moreover, this paper showed that the fluid mechanics are accurately modelled using the LES framework.
+In the current paper, this framework is extended to account for non-spherical particles.
+Half metallic ferromagnets (HMF) have attracted enormous interest due to their applications in spintronic devices [1].
+Dilute magnetic semiconductors (DMSs) are considered to be the best materials to show half metallicity.
+These materials have two components, one being a semiconducting material with diamagnetic properties while the other is a magnetic dopant such as transition metal having un-paired d electrons [2].
+The major advantage of these materials is utilization of electron's spin as information carrier since advanced functionalities in spintronic devices can be viable by the use of spin degree of freedom along with the charge of electrons [3].
+The major issue regarding the applicability of these materials is to enhance the Curie temperature above room temperature.
+That's why the research interest shifted towards large band gap materials.
+A lot of work has been reported on DMSs with different II–VI and III–V semiconductors as host material such as, ZnS, CdS, GaN, ZnO, ZnSe, ZnTe, TiO2, SnO2 [4–12].
+This study proposes a new framework of a numerical modelling of the gas exchange between air and water across their interface, and subsequent chemical reaction in water based on an extended two-compartment model.
+The major purpose of this study is to provide a fundamental concept for modelling physicochemical processes of the gas exchange, followed by the chemical reaction in water.
+Demonstrating fundamental data and knowledge on the important environmental transport phenomena, especially the effects of the Schmidt number and the chemical reaction rate on the gas exchange mechanisms across the interface have also been attempted.
+The gas exchange processes are separated into two physicochemical substeps, the first is the gas–liquid equilibrium between the two phases, and the second is the chemical reaction in the water phase.
+A first-order, irreversible chemical reaction of the gaseous material after its uptake into the water phase is assumed here to simplify interactions of the chemical reactions and turbulent transport phenomena in water.
+While a traditional two-compartment model assumes uniform concentration of a material in each compartment, the present two-compartment model uses a computational fluid dynamics (CFD) technique in the water compartment to evaluate temporal development of three-dimensional profiles of the velocity and concentration fields.
+A direct numerical simulation (DNS) approach is used to evaluate profiles of fluid velocities and concentrations in water, and several important turbulence statistics have been evaluated without using turbulent closures, and subgrid-scale models.
+We assume that a fluid flow in the water phase is a well-developed turbulent water layer of a low Reynolds number, and the Schmidt number is varied from 1 to 8 to observe the effects of the molecular diffusion of the gas in sub-interface water on the gas exchange rate at the interface.
+Six degrees of the nondimensional chemical reaction rate are used to find the effect of the chemical reaction rate on the gas exchange mechanisms.
+Extrapolations of the gas exchange rates and the related transport phenomena toward larger Schmidt number and the faster chemical reaction rate will also be examined to predict the gas exchange processes of the actual gases of Sc∼O(102) based on results from the present numerical experiments.
+The dynamics of various physical phenomena, such as the movement of pendulums, planets, or water waves can be described in a variational framework.
+The development of variational principles for classical mechanics traces back to Euler, Lagrange, and Hamilton; an overview of this history can be found in [1,19].
+This approach allows to express all the dynamics of a system in a single functional – the Lagrangian – which is an action integral.
+Hamiltonian mechanics is a reformulation of Lagrangian mechanics which provides a convenient framework to study the symmetry properties of a system.
+This is expressed by Noether's theorem which establishes the direct connection between the symmetry properties of Hamiltonian systems and conservation laws.
+When one approximates the system numerically, it is advantageous to preserve the Hamiltonian structure also at the discrete level.
+Given that Hamiltonian systems are abundant in nature, their numerical approximation is therefore a topic of significant relevance.
+A surfactant is a surface active agent.
+In this work a surfactant term will be used for compounds which improve the dispersability of the CI in the acid (as emulsifiers providing dispersed emulsion – not separated) while wetting the surface of the metallic material [14,20,24].
+However, surfactants can offer corrosion protection themselves.
+Some examples when the same compound was used as a surfactant or active corrosion inhibitor ingredient are given below.
+Typical surfactants in the oilfield services industry are alkylphenol ethoxylates, e.g.
+nonylphenol ethoxylate (NPE) [14,15,30,106,107].
+However, NPEs have been banned from use in the North Sea because of their toxicity.
+On the other hand, ethoxylated linear alcohols are more acceptable [20].
+The quaternary ammonium salts and amines (when protonated) are the most used compounds of the cationic surfactants class, where the cation is the surface active specie.
+As the amines only function as a surfactant in the protonated state, they cannot be used at high pH.
+On the other hand, quaternary ammonium compounds, frequently abbreviated as “quats”, are not pH sensitive.
+Long-chain quaternary ammonium bromides were also reported to work as efficient CIs for steel materials [106].
+A frequently employed surfactant was N-dodecylpyridinium bromide (DDPB) [9,60,61,108,109].
+Anionic sulphates, anionic sulphonates, alkoxylated alkylphenol resins, and polyoxyethylene sorbitan oleates are also useful surfactants.
+Ali reported that a particularly useful surfactant is a blend of polyethylene glycol esters of fatty acids and ethoxylated alkylphenols [15].
+Several examples of the surfactants used are given below in Section 5.6.
+For any quantum dynamical method, existing or emerging, reliable benchmarks are required to assess their accuracy.
+A model Hamiltonian exhibiting tunnelling dynamics through a multidimensional asymmetric double well potential has been used as a test by the MP/SOFT [18] and CCS methods [19] mentioned above, and also more recently by a configuration interaction (CI) expansion method [20] and two-layer version of CCS (2L-CCS).
+[21] The Hamiltonian consists of a 1-dimensional tunnelling mode coupled to an (M−1)-dimensional harmonic bath, hence it is a system-bath problem which bears some similarity to the Caldeira-Leggett model of tunnelling in a dissipative system [22,23].
+This Hamiltonian is non-dissipative, however and the harmonic modes all have the same frequency.
+System-bath models play an important role in physics, being used to describe superconductivity at a Josephson junction in a superconducting quantum interface device (SQUID) [24], for which the Caldeira-Leggett model provides a theoretical basis, and magnetic and conductance phenomena in the spin-bath regime [25].
+The need to represent scale interactions in weather and climate prediction models has, for many decades, motivated research into the use of adaptive meshes [3,34,38].
+R-adaptivity – mesh redistribution – involves deforming a mesh in order to vary local resolution and was first considered for atmospheric modelling more than twenty years ago by Dietachmayer and Droegemeier [14].
+It is an attractive form of adaptivity since it does not involve altering the mesh connectivity, does not create load balancing problems because points are never created or destroyed, does not require mapping of solutions between meshes [26], does not lead to sudden changes in resolution and can be retro-fitted into existing models.
+Variational methods exist which attempt to control resolution in different directions for r-adaptive meshes (e.g.
+[23,25]).
+Alternatively, the solution of the Monge–Ampère equation to generate an optimally transported (OT) mesh based on a scalar valued monitor function is a useful form of r-adaptive mesh generation because it generates a mesh equidistributed with respect to a monitor function and does not lead to mesh tangling [7].
+We will see that the optimal transport problem on the sphere leads to a slightly different equation of Monge–Ampère type, which has not before been solved numerically on the surface of a sphere, which would be necessary for weather and climate prediction using r-adaptivity.
+Our procedure does not address the issue of how parameterizations can vary for different flow types.
+However, Edeling et al.
+[9] carried out separate calibrations for a set of 13 boundary-layer flows.
+They summarized this information across calibrations by computing Highest Posterior-Density (HPD) intervals, and subsequently represent the total solution uncertainty with a probability-box (p-box).
+This p-box represents both parameter variability across flows, and epistemic uncertainty within each calibration.
+A prediction of a new boundary-layer flow is made with uncertainty bars generated from this uncertainty information, and the resulting error estimate is shown to be consistent with measurement data.
+This approach is helpful, but it might be extended further by modelling proximity across flows through a distance that would relate to the flow characteristics in order to borrow strength across calibrations instead of splitting the calibrations and then merging the outcomes afterwards.
+This is a challenging but attractive venue for future research.
+Uranium carbide was traditionally used as fuel kernel for the US version of pebble bed reactors as opposed to the German version based on uranium dioxide.
+For the Generation IV nuclear systems, mixed uranium–plutonium carbides (U, Pu) C constitute the primary option for the gas fast reactors (GFR) and UCO is the first candidate for the very high temperature reactor (VHTR).
+In the former case the fuel high actinide density and thermal conductivity are exploited in view of high burnup performance.
+In the latter, UCO is a good compromise between oxides and carbides both in terms of thermal conductivity and fissile density.
+However, in the American VHTR design, the fuel is a 3:1 ratio of UO2:UC2 for one essential reason, well explained by Olander [2] in a recent publication.
+During burnup, pure UO2 fuel tends to oxidize to UO2+x.
+UO2+x reacts with the pyrocarbon coating layer according to the equilibrium:(1)UO2+x + xC → UO2 + xCO
+Since the receptors in human biology mostly consist of chiral molecules, drug action mostly involves a specified enantiomeric form.
+This has spurred the development, especially in the pharmaceutical industry, of a host of techniques to secure enantiopure products.
+Such methods, mostly multi-step and time-consuming, can typically be cast in one of two distinct categories: synthetic mechanisms designed to produce a single stereoisomer, or separation techniques to isolate distinct enantiomers from a racemic mixture.
+A significant drawback, for either approach, is a dependence on a supply of enantiopure reagents or substrates – synthesis routes generally utilise chiral building blocks or enantioselective catalysts [7,8], while enantiomer separation techniques typically incorporate chiral selector molecules to form chemically distinct and distinguishable diastereomeric complexes [8,9].
+A key requirement in aiming to achieve enantiopure products, irrespective of the synthetic method, is therefore a means to measure, and duly quantitate the enantiomeric excess – signifying the degree of chirality within molecular products.
+Chiral discrimination through optical means is well-known to offer direct, non-contact ways to distinguish between molecules of different handedness, based on observations such as the subtle differences in absorption of left- and right-handed circularly polarised light, or indeed the twisting of polarisation in optical rotation.
+Other optical methods, under more recent development, also show some promise to achieve enantiomer separation, as will be introduced later.
+We use open and close aperture Z-scan experiments, in analogy to the saturation absorption work discussed earlier in water [8], to respectively measure the β and n2 for a series of primary alcohols with the help of 1560nm femtosecond laser pulses, however, with the important inclusion of an optical-chopper.
+The vibrational combination states of the alcohols are coupled by the femtosecond laser pulses at 1560nm.
+These couplings result in the absorption of 1560nm and the excited molecules undergo relaxation through non-radiative processes, which gives rise to transient thermal effects.
+These transient thermal effects are related to the pure optical nonlinearity of the samples and can be measured as a change in their n2 values [14].
+The transient thermal effects of individual pulses accumulate in case of high repetition-rate lasers to produce a cumulative thermal effect at longer timescales.
+We measure this cumulative thermal effect with the mode-mismatched two-color pump–probe experiment.
+There are some relevant studies on information dissemination in transportation systems using simulations.
+One category of studies look at how either local information (only about the neighbours) or global information (about the entire network) affects the global network performance.
+Our approach is different in the sense that we investigate the impact of information on the global network performance depending on the fraction of people that receive information.
+We analyse what is the effect of real time information dissemination and explain why this effect appears.
+Information is disseminated in real time and contains global details about how congested the roads are.
+This approach is important as it gives insights on the impact that massive use of real-time information can have on traffic.
+This can be useful for building more intelligent traffic control mechanisms where information is a steering tool.
+When dominated by surface shadowing mechanisms, the aggregation of vapor particles onto a surface is a complex, non-local phenomenon.
+In the literature, there have been many attempts to analyze the growth mechanism by means of pure geometrical considerations; i.e., by assuming that vapor particles arrive at the film surface along a single angular direction [38,41].
+Continuum approaches, which are based on the fact that the geometrical features of the film (i.e., the nanocolumns) are much larger than the typical size of an atom [42,266,267], have been also explored.
+For instance, Poxson et al.
+[228] developed an analytic model that takes into account geometrical factors as well as surface diffusion.
+This model accurately predicted the porosity and deposition rate of thin films using a single input parameter related to the cross-sectional area of the nanocolumns, the volume of material and the thickness of the film.
+Moreover, in Ref.
+[39], an analytical semi-empirical model was presented to quantitatively describe the aggregation of columnar structures by means of a single parameter dubbed the fan angle.
+This material-dependent quantity can be experimentally obtained by performing deposition at normal incidence on an imprinted groove seeded substrate, and then measuring the increase in column diameter with film thickness.
+This model was tested under various conditions [40], which returned good results and an accurate prediction of the relation between the incident angle of the deposition flux and the tilt angle of the columns for several materials.
+Gas sorption, storage and separation in carbon materials are mainly based on physisorption on the surfaces and particularly depend on the electrostatic and dispersion (i.e., vdW) interactions.
+The former can be tuned by introducing charge variations in the material, and the latter by chemical substitution.
+The strength of the interaction is determined by the surface characteristics of the adsorbent and the properties of targeted adsorbate molecule, including but not limited to the size and shape of the adsorbate molecule along with its polarizability, magnetic susceptibility, permanent dipole moment, and quadrupole moment.
+Li et al.
+summarise the adsorption-related physical parameters of many gas or vapour adsorbates, and herein Table 1 we show a few of those of interest, H2, N2, CO, CO2, CH4, NH3, SO2 and H2S [90].
+For instance, an adsorbent with a high specific surface area is a good candidate for adsorption of a molecule with high polarizability but no polarity.
+Adsorbents with highly polarised surfaces are good for adsorbate molecules with a high dipole moment.
+The adsorbents with high electric field gradient surfaces are found to be ideal for the high quadrupole moment adsorbate molecules [91].
+Normally, the binding or adsorption strength with a carbon nanostructure is relatively low for H2 and N2; intermediate for CO, CH4 and CO2; and relatively high for H2S, NH3 and H2O.
+Thus, surface modifications, such as doping, functionalization and improving the pore structure and specific surface area of nanocarbons, are important to enhance gas adsorption.
+For this purpose, graphene offers a great scope for tailor-made carbonaceous adsorbents.
+The control of the RP re-encounter probability finds a direct application to improve the performance of chemical devices.
+Here, we show how a simple-to-implement control scheme highly enhances the sensitivity of a model chemical magnetometer by up to two orders of magnitude.
+The basic idea behind a chemical magnetometer is that, since a change in the magnetic field modifies the amount of singlet products, one can reverse the reasoning and measure the chemical yield to estimate B.
+Intuitively, the magnetic sensitivity is high when a small change in the magnetic field intensity produces large effects on the singlet yield.
+Formally, it is defined as:(2)Λs(B)≡∂Φs(B)∂B=∫0∞pre(t)gs(B,t)dt,with gs(B,t)≡∂fs(B,t)∂B being the instantaneous magnetic sensitivity.
+The functional form of fs(B,t)=Sρel(t)S strongly depends on the specific realization of the radical pair, in particular on the number of the surrounding nuclear spins.
+Here, we consider a radical pair in which the first electron spin is devoid of hyperfine interactions, while the second electron spin interacts isotropically with one spin-1 nucleus, e.g.
+nitrogen.
+In the context of the chemical compass (i.e.
+when the task is determining the magnetic field direction through anisotropic hyperfine interactions), an analogous configuration (with only one spin-1/2 nucleus) has been proposed [3], and numerically characterized [8], as being optimal: Additional nuclear spins would perturb the intuitive ‘reference and probe’ picture.
+The Hamiltonian then simplifies to H=-γeB(S1(z)+S2(z))+|γe|αS→2·I→, where α is the isotropic hyperfine coupling.
+Zirconium alloys are used as fuel cladding in pressurised and boiling water nuclear reactors.
+As such these materials are exposed to a large number of environmental factors that will promote degradation mechanisms such as oxidation.
+At high burn-ups, i.e.
+extended service life, oxidation and the associated hydrogen pick-up can be a limiting factor in terms of fuel efficiency and safety.
+The oxidation kinetics for many zirconium alloys are cyclical, demonstrating a series of approximately cubic kinetic curves separated by transitions [1–5].
+These transitions are typified by a breakdown in the protective character of the oxide and are potentially linked to a number of mechanical issues.
+Understanding how these issues influence oxidation is a key to developing a full mechanistic understanding of the corrosion process.
+It has been known [9,14,18,22] that the fragmentation processes in polyatomic molecules induced by an intense ultrafast laser field can sometimes exhibit sensitive dependence on the instantaneous phase characteristics of the laser field.
+Depending on the change in sign the chirped laser pulses, fragmentation could be either enhanced or suppressed [14,18,22].
+Controlling the outcome of such laser induced molecular fragmentation with chirped femtosecond laser pulses has brought forth a number of experimental and theoretical effects in the recent years.
+However, efforts are continuing for a specific fragment channel enhancement, which is difficult since it also is a function of the molecular system under study [20,22–24].
+Here we report the observation of a coherently enhanced fragmentation pathway of n-propyl benzene, which seems to have such specific fragmentation channel available.
+We found that for n-propyl benzene, the relative yield of C3H3+ is extremely sensitive to the phase of the laser pulse as compared to any of the other possible channels.
+In fact, there is almost an order of magnitude enhancement in the yield of C3H3+ when negatively chirped pulses are used, while there is no effect with the positive chirp.
+Moreover, the relative yield of all the other heavier fragment ions resulting from interaction of the strong field with the molecule is not sensitive to the sign of the chirp, within the noise level.
+The four bounding PCM wastes, given in Table 1, were simulated using the most appropriate materials and geometries.
+“Mock up” PCM drums were assembled using the following components: PCM drums were simulated using mild steel paint cans and lids (Fenton Packaging Ltd.); PVC bags were replicated using identical PVC sheeting (Romar Workwear Ltd.); the metallic waste was simulated using commercial grade 18/8 stainless steel, aluminium and copper (Avus Metals & Plastics Ltd.), and lead shot (Aldrich); the inorganic waste was simulated using waste Pyrex labware, crushed masonry, concrete and window glass; CeO2 (from Acros Organics, >99.9%; dried 15h at 600°C) was used as a PuO2 surrogate.
+Commercially available ground, granulated blast-furnace slag “Calumite” was used as an additive [27].
+The analysed chemical composition is given in Table 3.
+Calumite is a powdered material, with a typical particle size distribution between limits of ca.
+40 to ca.
+400μm.
+Structural properties are well reproduced by all models (Table 2), but the significant improvement of our potential stands in the elastic constants which relate to how the system responds to stress.
+Indeed, structure and elasticity are important parameters for elucidating grain boundary stability.
+All potential models correctly predict the relative stability of the defect energies.
+The Morelon potential model performed best as it was specifically derived to replicate defect formation energies, but it largely underestimates the bulk modulus.
+The energies calculated with the Morl and the Arima potential models are overestimated; this is a known disadvantage of using rigid ion models as the ionic polarisability is not taken into account.
+For completeness, we report two shell models with the best results given by the Catlow potential model.
+The Morl, along with the Grimes shell potential model, accurately reproduce the activation energy of oxygen migration (the migration path was the lowest energy and most favourable diffusion mechanism observed in bulk UO2 [1]).
+The major deficiency of the Morl potential is that the cation defect energies are high, and hence the number of cation defects will be underestimated.
+However, this should not be an issue unless this model was applied to processes such as grain growth where cation mobility will contribute.
+Hydrides, once precipitated in zirconium, degrade the mechanical properties of a component, leading to reductions in tensile strength, ductility and fracture toughness [35–40].
+These changes can ultimately compromise the integrity of cladding during normal operating life , accident conditions and fuel storage [13].
+As well as the degradation of mechanical properties, the presence of hydrides can also affect phenomena like pellet cladding mechanical interaction (PCMI); or introduce mechanisms for failure, such as delayed hydride cracking (DHC).
+The former mechanism is the product of thermal expansion in fuel pellets introducing stresses into the cladding, which may then lead to the formation of cracks in areas made brittle by large hydride concentrations [13].
+The latter mechanism, DHC, is a sub-critical, time dependent cracking phenomenon that requires long range hydrogen diffusion for repeated local hydride growth and fracture at a hydrostatic tensile stress raiser [5,41,42].
+The process occurs over an extended period of time under a continuously applied load that is below the yield stress of the material [5,41,42].
+The vibrational spectra of l-cysteine have been recorded and assigned in both solution [8,9] and the solid state [10–14].
+Spectral assignments have been made using empirical force fields [15], Hartree–Fock calculations [10,16,17] based on the isolated molecule approximation.
+For systems that exhibit strong intermolecular interactions, this approximation often leads to poor agreement between experiment and theory.
+A striking example is purine [18], where a study of the solid state vibrational spectra by isolated molecule and periodic calculations, gave almost quantitative agreement between theory and experiment for the latter, whereas the former gave only modest agreement and was unable to distinguish between the tautomers.
+In the present case, where the structure consists of ions linked by hydrogen bonds, periodic calculations based on the complete primitive cell are essential [19].
+The only work [20] that includes some solid state effects used molecular dynamics but from which it is difficult to extract assignments.
+The aim of this paper is to provide a complete assignment of the vibrational spectra of l-cysteine in both the orthorhombic and monoclinic forms by the use of a combination of computational and experimental methods.
+The data acquisition strategies must balance the relevant scales and volumes of the datasets to be used in the physical and statistical modeling.
+Approaches for extraction of the necessary information must be able to disregard spurious information, so as to develop a working network of models for each active mechanism related to each degradation pathway on the mesoscopic physical level and the data-driven statistical model level.
+To capture the temporal evolution of the energy material over long time frames, appropriate informatics methods are needed to balance data volume (e.g., simple univariate time-series data streams with high-dimensional volumetric imaging datasets) while considering their respective information contents [68,69].
+The raw data and extracted information must be accessible for query and modeling.
+Similarly, the modeling approaches used to understand and parameterize active mechanisms and phenomena over lifetime fall into the broad categories of micro-, meso- and macroscopic approaches.
+Laboratory and real-world experimentation, informatics, analytics, and the development of network models for mesoscopic evolution of energy materials over lifetime together constitute the field of degradation science.
+The main drawback of thermo-oxidation in most actual devices and ITER is its limitation to maintenance periods, when the vessel walls can be heated up around 300–400 °C by hot helium injection through the cooling system [19,20], and also because of the required reconditioning of the walls before plasma operation to remove the absorbed oxygen [10].
+However, the temperature achieved is not homogeneous over the vessel, as it is limited to the distance to the cooling tubes, and thus to the device design.
+The analysis of this study is a continuation of previous works done for the treatment of ITER carbon co-deposits [1–3], so the temperatures studied are in the range of 350 °C for divertor and 200–275 °C for main wall and remote parts.
+At present, due to budget restrains as well as due to tritium trapped in co-deposited carbon layers, ITER will not use carbon materials at the divertor strike points in spite of their excellent resilience against large heat loads.
+Nevertheless, many present experimental nuclear fusion devices (DIII-D, TCV, etc.)
+and new ones (JT-60SA, KSTAR, Wenderstein-7X) use carbon elements, so the removal of carbon co-deposits is still necessary for a better device operation—plasma density control, dust events, etc.
+The temperatures used in this work are not very different from the ones achievable in present devices, such that the results can be extrapolated to them.
+Moreover, even for ITER this study could be useful if carbon materials have to be eventually installed in the case that operation with tungsten tiles at the strike points is precluded by unexpected reasons.
+Although the free Kelvin wave problem is of considerable theoretical importance, problems with forcing and damping have greater practical importance.
+In nature, the forcing could be due to a wind stress at the free surface or an astronomical tidal potential, and the damping could be due to the turbulent stress of a bottom boundary layer.
+Regardless of the details, the forced response is composed of shallow-water waves, possibly including Kelvin waves, with the largest amplitudes in waves with a natural frequency ωf close to that of the forcing frequency ω; various examples of this sort are given in Chapters 9 and 10 of Gill [16].
+When ω≈ωf, there is a large amplitude near-resonant response, the size of which is sensitive to the weak damping and |ω−ωf|.
+Thus, in numerical solutions of near-resonantly forced waves, we anticipate that errors in ωf (associated with the spatial discretisation) could lead to non-trivial errors in the forced response.
+Alternatively to H-atom photodetachment from the intermediate radicals, the latter may serve as reducing agents.
+Evidence has been reported in recent years that the pyridinyl radical (PyH) is an exceptionally strong reducing agent which can even reduce CO2 to formaldehyde, formic acid or methanol with suitable catalyzers [27–29], albeit the mechanisms of these reactions are currently poorly understood [30–32].
+The theoretically predicted dissociation thresholds of the AcH, AOH and BAH radicals are about 2.7eV, 2.5eV and 3.0eV, respectively (see Fig.
+4), while the predicted dissociation threshold of the pyridinyl radical is much lower, about 1.7eV [1].
+Pyridinyl is thus a significantly stronger reductant than acridinyl and related radicals.
+It is therefore not expected that the latter will be able to reduce carbon dioxide in dark reactions.
+Generalized polynomial chaos expansions.
+One approach to model densities with stochastically dependent components numerically, is to reformulate the uncertainty problem as a set of independent components through generalised polynomial chaos expansion [34].
+As described in detail in Section 3.1, a Rosenblatt transformation allows for the mapping between any domain and the unit hypercube [0, 1]D. With a double transformation we can reformulate the response function f asf(x,t,Q)=f(x,t,TQ−1(TR(R)))≈fˆ(x,t,R)=∑n∈INcn(x,t)Φn(R),where R is any random variable drawn from pR, which for simplicity is chosen to consists of independent components.
+Also, {Φn}n∈IN is constructed to be orthogonal with respect to LR, not LQ.
+In any case, R is either selected from the Askey-Wilson scheme, or calculated using the discretized Stieltjes procedure.
+We remark that the accuracy of the approximation deteriorate if the transformation composition TQ−1∘TR is not smooth [34].
+Dakota, Turns, and Chaospy all support generalized polynomial chaos expansions for independent stochastic variables and the Normal/Nataf copula listed in Table 2.
+Since Chaospy has the Rosenblatt transformation underlying the computational framework, generalized polynomial chaos expansions are in fact available for all densities.
+In addition, the prediction of solar cell’s temperature is very important for the electrical characterisation of CPV modules.
+Rodrigo et al.
+(2014) reviewed various methods for the calculation of the cell temperature in High Concentrator PV (HCPV) modules.
+The methods were categorised based on: (1) heat sink temperature, (2) electrical parameters and (3) atmospheric parameters.
+The first two categories are based on direct measurements of CPV modules in indoor or outdoor experimental setups and presented the highest degree of accuracy (Root Mean Square Error (RMSE) 1.7–2.5K).
+Most of the methods reviewed by Rodrigo et al.
+(2014) calculate the cell temperature at open-circuit conditions.
+Methods that predict the cell temperature at maximum power point (MPP) operation offer a more realistic approach since they include the electrical energy generation of the solar cells (i.e.
+real operating conditions); Yandt et al.
+(2012) described a method predicting the cell temperature at MPP based on electrical parameters and Fernández et al.
+(2014b) based on heat sink temperature with absolute RMSE 0.55–1.44K.
+Fernández et al.
+(2014a) also proposed an artificial neural network model to estimate the cell temperature based on atmospheric parameters and an open-circuit voltage model based on electrical parameters (Fernandez et al., 2013a) offering good accuracy (RMSE 3.2K and 2.5K respectively (Rodrigo et al., 2014)).
+The main disadvantage of the aforementioned methods is that an experimental setup is required to obtain the parameters used for the cell temperature calculation.
+As already discussed, in dilute flows the choice between the hard sphere and soft sphere models largely depends on the computational time spent to solve the particle equation of motion.
+For very dilute flows, the hard sphere model is the most natural choice.
+However, when the collisions can no longer be assumed as binary and instantaneous, the soft sphere model is the only realistic option.
+It is interesting to know whether the choice of the collision model affects the statistics.
+Fig.
+14 compares the mean velocity obtained from both models with the experimental data.
+The same comparison is performed for the smooth walls.
+The differences between the hard and soft sphere models for the smooth walls are almost negligible.
+However, the differences between the hard and soft sphere models for the rough walls are minor.
+This is because the rough wall treatment in the soft sphere implementation adds extra virtual walls during the collision of a particle with a wall, which is a more realistic representation of a rough wall compared to the hard sphere rough wall treatment where one random wall is considered.
+This is because, a soft sphere collision is not instantaneous and occurs over a finite amount of time.
+Similarly, the same effects are observed on the fluid statistics.
+However, Fig.
+15, which compares the particle velocity fluctuations, shows that the differences are somewhat larger.
+Additionally, the differences in both particle mean and RMS velocity profiles are because the hard sphere collisions are unfortunately heavily dependent on the tangential coefficient of restitution (ψ); the effects by varying this quantity are shown in Figs.
+16 and 17.
+The homologous series of n-alkanes are represented here as homonuclear chains of tangent Mie spherical CG segments.
+The development of CG models for long n-alkanes such as n-decane (n-C10H22) and n-eicosane (n-C20H42) has already been successfully demonstrated using the SAFT-γ Mie formalism [118].
+The n-decane molecule was represented by chains of three and n-eicosane chains of six fully flexible tangentially bonded Mie segments.
+A certain degree of parameter degeneracy in terms of overall performance is expected as a consequence of the conformal nature of the EOS description [132].
+In our current work, we use an alternative CG mapping for n-alkanes developed in reference [122], where each segment was taken to represent three alkyl carbon backbone atoms and their corresponding hydrogen atoms.
+By applying this mapping, n-alkanes chains containing multiples of three carbon units can be represented directly: n-C6H14, n-C9H20, n-C12H26, n-C15H32, n-C18H38, etc.
+A good description of the thermodynamic properties of these alkanes is found to be provided with CG alkyl beads characterised by the Mie (15–6) potential.
+For convenience, the exponent pair (15–6) is also used to represent the interactions between the CG beads of the intervening alkanes considered here; the number of segments m is taken to be the nearest integer of the division of the carbon number C by three.
+The size σ and energy ∊ parameters are then estimated from the experimental saturated-liquid density and vapour pressure of the individual alkanes following the usual SAFT-γ Mie procedure.
+The chosen mapping is by no means unique, as one can postulate parameter sets that fulfil other requisites, such as being “universal” across the entire homologous series [119] or correlated to the critical properties [125].
+It is well-known that the optical properties of atoms and molecules can be influenced by their electronic environment.
+Local field effects on spontaneous emission rates within nanostructured photonic materials for example are familiar, and have been well summarized [1].
+Optical processes, including resonance energy transfer are similarly dependent on the local environment of molecular chromophores [2–4].
+Many biological systems are known to contain complex organizations of molecules with absorption bands shifted due to the electronic influence of other, nearby optical centres.
+For instance, in widely studied light-harvesting complexes, there are two identifiable forms of the photosynthetic antenna molecule bacteriochlorophyll, with absorption bands centred on 800 and 850nm; it has been shown that the most efficient forms of energy transfer between the two occurs when there is a neighbouring carotenoid species 5–7.
+Until now, research on the broader influence of a neighbouring, off-resonant, molecule on photon absorption has mostly centred on the phenomenon of induced circular dichroism, where both quantum electrodynamic (QED) calculations [8–10] and experimental procedures [11–13] predict and verify that a chiral mediator confers the capacity for an achiral acceptor to exhibit circular differential absorption.
+As discussed above, proper inclusion of these interactions requires segment synchronization after every iteration.
+In order to minimize simulation errors due to incorrect values of the interactions potential, segments are synchronized after every iteration.
+Although relatively long communication times between remote processors may hinder this process in typical parallel computers, this is not the case for GPGPU architectures.
+Still, full recalculation of the interaction potential after each iteration is time consuming.
+Instead, the algorithm corrects the current potential by adding dipole contributions for every nearby charge that hopped during the previous iteration.
+Full updates of the interaction potential are only required for the grid points that are related to charges that hopped during the last iteration.
+Accumulative rounding errors that arise due to repetitive addition and subtraction are solve this by rounding all interaction potentials to a uniformly spaced range of floating point numbers.

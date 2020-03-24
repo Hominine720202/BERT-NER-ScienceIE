@@ -8,6 +8,22 @@ https://scienceie.github.io/resources.html
 The ACL keyphrase corpus can be downloaded at:
 https://nlp.stanford.edu/pubs/FTDDataset_v1.txt
 
+## Usage
+
+- **Get BERT model for PyTorch**
+
+  You can download the pre-trained model named scibert from https://github.com/allenai/scibert。
+
+- **Train your own model**
+
+  if you use default parameters, just run
+
+  >  bash run.sh
+
+- **Evaluate this model**
+
+  > bash evaluate.sh
+
 ## reference
 
 Augenstein I, Das M, Riedel S, Vikraman L, McCallum A. Semeval 2017 task 10:
