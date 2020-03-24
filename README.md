@@ -16,8 +16,6 @@ https://nlp.stanford.edu/pubs/FTDDataset_v1.txt
 
 - **Train your own model**
 
-  if you use default parameters, just run
-
   >  bash run.sh
 
 - **Evaluate this model**
