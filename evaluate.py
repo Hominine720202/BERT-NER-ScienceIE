@@ -17,14 +17,14 @@ from data_loader import DataLoader
 import utils
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_dir', default='data/owndata/', help="Directory containing the dataset")
-parser.add_argument('--bert_model_dir', default='scibert', help="Directory containing the BERT model in PyTorch")
+parser.add_argument('--data_dir', default='data/msra/', help="Directory containing the dataset")
+parser.add_argument('--bert_model_dir', default='bert-base-chinese-pytorch', help="Directory containing the BERT model in PyTorch")
 parser.add_argument('--model_dir', default='experiments/base_model', help="Directory containing params.json")
 parser.add_argument('--seed', type=int, default=23, help="random seed for initialization")
 parser.add_argument('--restore_file', default='best', help="name of the file in `model_dir` containing weights to load")
 parser.add_argument('--multi_gpu', default=False, action='store_true', help="Whether to use multiple GPUs if available")
 parser.add_argument('--fp16', default=False, action='store_true', help="Whether to use 16-bit float precision instead of 32-bit")
-parser.add_argument('--prob', default=0.9, help="A threshold value")
+
 
 def evaluate(model, data_iterator, params, mark='Eval', verbose=False):
     """Evaluate the model on `steps` batches."""
@@ -71,6 +71,7 @@ def evaluate(model, data_iterator, params, mark='Eval', verbose=False):
         logging.info(report)
     return metrics
 
+
 if __name__ == '__main__':
     args = parser.parse_args()
 
@@ -111,7 +112,7 @@ if __name__ == '__main__':
     logging.info("- done.")
 
     # Define the model
-    config_path = os.path.join(args.bert_model_dir, 'config.json')
+    config_path = os.path.join(args.bert_model_dir, 'bert_config.json')
     config = BertConfig.from_json_file(config_path)
     model = BertForTokenClassification(config, num_labels=len(params.tag2idx))
 
@@ -124,5 +125,5 @@ if __name__ == '__main__':
         model = torch.nn.DataParallel(model)
 
     logging.info("Starting evaluation...")
-    logging.info("Prob :"+args.prob)
     test_metrics = evaluate(model, test_data_iterator, params, mark='Test', verbose=True)
+

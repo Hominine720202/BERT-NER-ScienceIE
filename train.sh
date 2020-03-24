@@ -1,1 +1,2 @@
-python exter.py --data_dir data/ScienceIE/exter/ --bert_model_dir scibert --model_dir experiments/base_model --exterid 0 --logit 0.8
+python train.py --data_dir data/ScienceIE/ --bert_model_dir ../scibert --model_dir experiments/base_model
+python train.py --data_dir data/ACL/ --bert_model_dir ../scibert --model_dir experiments/base_model

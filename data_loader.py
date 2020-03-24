@@ -26,11 +26,12 @@ class DataLoader(object):
         params.tag2idx = self.tag2idx
         params.idx2tag = self.idx2tag
         self.tag_pad_idx = self.tag2idx['O']
+
         self.tokenizer = BertTokenizer.from_pretrained(bert_model_dir, do_lower_case=True)
 
     def load_tags(self):
         tags = []
-        file_path = os.path.join('data/selfdata/', 'tags.txt')
+        file_path = os.path.join(self.data_dir, 'tags.txt')
         with open(file_path, 'r') as file:
             for tag in file:
                 tags.append(tag.strip())
@@ -54,12 +55,10 @@ class DataLoader(object):
                 # replace each tag by its index
                 tag_seq = [self.tag2idx.get(tag) for tag in line.strip().split(' ')]
                 tags.append(tag_seq)
-        print(len(sentences),len(tags))
+
         # checks to ensure there is a tag for each token
         assert len(sentences) == len(tags)
         for i in range(len(sentences)):
-            if len(tags[i]) != len(sentences[i]):
-                print(i,(tags[i]),(sentences[i]))
             assert len(tags[i]) == len(sentences[i])
 
         # storing sentences and tags in dict d
@@ -77,18 +76,12 @@ class DataLoader(object):
         """
         data = {}
         
-        if data_type in ['train', 'val', 'test','exter','retain']:
-            if data_type == 'exter':
-                sentences_file = os.path.join(self.data_dir, 'sentences.txt')
-                tags_path = os.path.join(self.data_dir, 'tags.txt')
-                print(sentences_file,tags_path)
-                self.load_sentences_tags(sentences_file, tags_path, data)
-            else:
-                sentences_file = os.path.join(self.data_dir, data_type, 'sentences.txt')
-                tags_path = os.path.join(self.data_dir, data_type, 'tags.txt')
-                self.load_sentences_tags(sentences_file, tags_path, data)
+        if data_type in ['train', 'val', 'test']:
+            sentences_file = os.path.join(self.data_dir, data_type, 'sentences.txt')
+            tags_path = os.path.join(self.data_dir, data_type, 'tags.txt')
+            self.load_sentences_tags(sentences_file, tags_path, data)
         else:
-            raise ValueError("data type not in ['train', 'val', 'test','exter']")
+            raise ValueError("data type not in ['train', 'val', 'test']")
         return data
 
     def data_iterator(self, data, shuffle=False):

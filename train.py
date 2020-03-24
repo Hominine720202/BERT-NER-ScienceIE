@@ -19,13 +19,9 @@ import utils
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--exter', default='False')
-parser.add_argument('--exterid', default='0')
-parser.add_argument('--exter_dir', default='data/selftrain/exter2train/', help="Directory containing the dataset")
 parser.add_argument('--data_dir', default='data/msra', help="Directory containing the dataset")
-parser.add_argument('--bert_model_dir', default='model/', help="Directory containing the BERT model in PyTorch")
+parser.add_argument('--bert_model_dir', default='bert-base-chinese-pytorch', help="Directory containing the BERT model in PyTorch")
 parser.add_argument('--model_dir', default='experiments/base_model', help="Directory containing params.json")
-parser.add_argument('--exter_model_dir', default='experiments/base_model', help="Directory containing params.json")
 parser.add_argument('--seed', type=int, default=2019, help="random seed for initialization")
 parser.add_argument('--restore_file', default=None,
                     help="Optional, name of the file in --model_dir containing weights to reload before training")
@@ -79,12 +75,12 @@ def train(model, data_iterator, optimizer, scheduler, params):
 
 def train_and_evaluate(model, train_data, val_data, optimizer, scheduler, params, model_dir, restore_file=None):
     """Train the model and evaluate every epoch."""
-    # Reload weights from the saved file
-    if args.exter == 'True':
+    # reload weights from restore_file if specified
+    if restore_file is not None:
         restore_path = os.path.join(args.model_dir, args.restore_file + '.pth.tar')
         logging.info("Restoring parameters from {}".format(restore_path))
         utils.load_checkpoint(restore_path, model, optimizer)
-    
+        
     best_val_f1 = 0.0
     patience_counter = 0
 
@@ -118,10 +114,10 @@ def train_and_evaluate(model, train_data, val_data, optimizer, scheduler, params
         model_to_save = model.module if hasattr(model, 'module') else model  # Only save the model it-self
         optimizer_to_save = optimizer.optimizer if args.fp16 else optimizer
         utils.save_checkpoint({'epoch': epoch + 1,
-                            'state_dict': model_to_save.state_dict(),
-                            'optim_dict': optimizer_to_save.state_dict()},
-                            is_best=improve_f1>0,
-                            checkpoint=model_dir)
+                               'state_dict': model_to_save.state_dict(),
+                               'optim_dict': optimizer_to_save.state_dict()},
+                               is_best=improve_f1>0,
+                               checkpoint=model_dir)
         if improve_f1 > 0:
             logging.info("- Found new best F1")
             best_val_f1 = val_f1
@@ -167,12 +163,9 @@ if __name__ == '__main__':
     
     # Initialize the DataLoader
     data_loader = DataLoader(args.data_dir, args.bert_model_dir, params, token_pad_idx=0)
+    
     # Load training data and test data
-    if args.exter == 'False':
-        train_data = data_loader.load_data('train')
-    else:
-        exter_loader = DataLoader(args.exter_dir+"/"+args.exterid+"/", args.bert_model_dir, params, token_pad_idx=0)
-        train_data = exter_loader.load_data('exter')
+    train_data = data_loader.load_data('train')
     val_data = data_loader.load_data('val')
 
     # Specify the training and validation dataset sizes
@@ -200,7 +193,6 @@ if __name__ == '__main__':
              'weight_decay_rate': 0.0}
         ]
     else:
-        # 这里对应需要微调的参数
         param_optimizer = list(model.classifier.named_parameters()) 
         optimizer_grouped_parameters = [{'params': [p for n, p in param_optimizer]}]
     if args.fp16:
@@ -225,3 +217,4 @@ if __name__ == '__main__':
     # Train and evaluate the model
     logging.info("Starting training for {} epoch(s)".format(params.epoch_num))
     train_and_evaluate(model, train_data, val_data, optimizer, scheduler, params, args.model_dir, args.restore_file)
+
