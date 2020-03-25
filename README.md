@@ -16,7 +16,7 @@ https://nlp.stanford.edu/pubs/FTDDataset_v1.txt
 
 - **Train your own model**
 
-  >  bash run.sh
+  >  bash train.sh
 
 - **Evaluate this model**
 
