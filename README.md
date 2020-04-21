@@ -5,8 +5,8 @@
 The ScienceIE corpus can be downloaded at:
 https://scienceie.github.io/resources.html
 
-The ACL keyphrase corpus can be downloaded at:
-https://nlp.stanford.edu/pubs/FTDDataset_v1.txt
+he ACL keyphrase corpus (data/ACL keyphrase corpus) can be downloaded at:
+https://github.com/RingoTC/BERT-NER-ScienceIE/blob/master/data/ACL-keyphrase-corpus/FTDDataset_v1.txt
 
 ## Usage
 
